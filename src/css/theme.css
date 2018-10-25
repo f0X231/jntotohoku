@@ -25,7 +25,7 @@
 /*------------------------------------*\
   #IMPORT
 \*------------------------------------*/
-@import "../../node_modules/bulma/css/bulma.min.css";
+@import "../../node_modules/milligram/dist/milligram.min.css";
 @import "fonts.css";
 
 
