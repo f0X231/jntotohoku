@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x_bd_it-webfont.eot');
+    src: url('../font/db_ozone_x_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x_bd_it-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x_bd_it-webfont.woff') format('woff'),
+         url('../font/db_ozone_x_bd_it-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x_bd-webfont.eot');
+    src: url('../font/db_ozone_x_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x_bd-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x_bd-webfont.woff') format('woff'),
+         url('../font/db_ozone_x_bd-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x_it-webfont.eot');
+    src: url('../font/db_ozone_x_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x_it-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x_it-webfont.woff') format('woff'),
+         url('../font/db_ozone_x_it-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x_li_it-webfont.eot');
+    src: url('../font/db_ozone_x_li_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x_li_it-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x_li_it-webfont.woff') format('woff'),
+         url('../font/db_ozone_x_li_it-webfont.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x_li-webfont.eot');
+    src: url('../font/db_ozone_x_li-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x_li-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x_li-webfont.woff') format('woff'),
+         url('../font/db_ozone_x_li-webfont.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'db_ozone_x';
+    src: url('../font/db_ozone_x-webfont.eot');
+    src: url('../font/db_ozone_x-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/db_ozone_x-webfont.woff2') format('woff2'),
+         url('../font/db_ozone_x-webfont.woff') format('woff'),
+         url('../font/db_ozone_x-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

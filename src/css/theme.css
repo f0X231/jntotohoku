@@ -1,3 +1,42 @@
-@import "../../node_modules/normalize.css/normalize.css";
-@import "../../node_modules/milligram/dist/milligram.min.css";
+/**
+ * CONTENTS
+ *
+ * IMPORT
+ * Milligram.css........A minimalist css framework.
+ * Fonts.css............Default font family.
+ *
+ * Global...............Globally-available variables and config.
+ *
+ * ELEMENT..............Tag of HTML.
+ * ATTRIBUTE............Option of tag of HTML.
+ *
+ * COMPONENTS
+ * Header...............The main page header.
+ * MENU.................Menu of all page.
+ * Footer...............The main page footer.
+ *
+ * OBJECTS
+ * ID...................Identify of DOM objects.
+ * Class................Name of objects.
+ *
+ */
 
+
+/*------------------------------------*\
+  #IMPORT
+\*------------------------------------*/
+@import "../../node_modules/milligram/dist/milligram.min.css";
+@import "fonts.css";
+
+
+/*------------------------------------*\
+  #GLOBAL
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+  #ELEMENT
+\*------------------------------------*/
+body {
+    font-family: 'db_ozone_x';
+}
