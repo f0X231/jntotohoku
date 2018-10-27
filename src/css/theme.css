@@ -13,6 +13,7 @@
  * COMPONENTS
  * Header...............The main page header.
  * MENU.................Menu of all page.
+ * Youtube..............Youtube responsive
  * Footer...............The main page footer.
  *
  * OBJECTS
@@ -48,7 +49,9 @@
 .color-gray { color: #a0a0a0; }
 .is-fullwidth, .width100 { width: 100%; }
 .width10 { width: 10%; }
+.width15 { width: 15%; }
 .width20 { width: 20%; }
+.width70 { width: 70%; }
 .width80 { width: 80%; }
 .width90 { width: 90%; }
 
@@ -65,6 +68,38 @@ body {
 }
 dl, dt { margin: 0; }
 
+
+/*------------------------------------*\
+  #COMPONENT
+\*------------------------------------*/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 30px; /* size of chrome */
+  height: 0; 
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container #overlay,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#overlay {
+  background:#000;
+  opacity:0.5;
+  /*background:rgba(255,255,255,0.8); or just this*/
+  z-index:50;
+  color:#fff;
+}
+
+
+
 /*------------------------------------*\
   #OBJECTS
 \*------------------------------------*/
@@ -75,7 +110,13 @@ dl, dt { margin: 0; }
 .herobanner-bar-social { margin: 0 2em; }
 .herobanner-bar-social dt { padding: 0 0.5em; }
 .vMiddle { vertical-align: middle; }
-
+.location-vdo {
+    margin: 2px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vdo-youtube { padding: 20px; }
 
 /*------------------------------------*\
   #OVERRIDE
@@ -98,7 +139,7 @@ dl, dt { margin: 0; }
 
 /* Larger than tablet screen */
 @media (min-width: 80.0rem) {
-
+  .vdo-youtube { padding: 20px 40px; }
 }
 
 /* Larger than desktop screen */
