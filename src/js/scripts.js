@@ -1,4 +1,45 @@
 
+function heroBanner() {
+    var bigbanner = $("#bigbanner").slippry({
+        // transition: 'fade',
+        // useCSS: true,
+        // speed: 1000,
+        // pause: 3000,
+        // auto: true,
+        // preload: 'visible',
+        // autoHover: false
+    });
+
+    /*$('.stop').click(function () {
+        bigbanner.stopAuto();
+    });
+
+    $('.start').click(function () {
+        bigbanner.startAuto();
+    });
+
+    $('.prev').click(function () {
+        bigbanner.goToPrevSlide();
+        return false;
+    });
+    $('.next').click(function () {
+        bigbanner.goToNextSlide();
+        return false;
+    });
+    $('.reset').click(function () {
+        bigbanner.destroySlider();
+        return false;
+    });
+    $('.reload').click(function () {
+        bigbanner.reloadSlider();
+        return false;
+    });
+    $('.init').click(function () {
+        bigbanner = $("#bigbanner").slippry();
+        return false;
+    });*/
+}
+
 function galleryShow() {
     $("#content-slider").lightSlider({
         loop:true,
@@ -7,7 +48,7 @@ function galleryShow() {
     $('#image-gallery').lightSlider({
         gallery:true,
         item:1,
-        thumbItem:9,
+        thumbItem: 6,
         slideMargin: 0,
         speed:500,
         auto:true,
@@ -17,33 +58,20 @@ function galleryShow() {
         }  
     });
 }
-
+/*
 function initMap(elementID, latitude, longitude, iconMaker, infoHTML) {
-    var pointOfPosition = {lat: latitude, lng: longitude}
-    var htmlInfo = infoHTML;
-    var map = new google.maps.Map(document.getElementById(elementID), {
-                                scaleControl: true,
-                                mapTypeControl: true,
-                                mapTypeControlOptions: {
-                                    style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-                                    position: google.maps.ControlPosition.TOP_CENTER
-                                },
-                      
-                                center: pointOfPosition,
-                                zoom: 14
-                            });
-    var infowindow = new google.maps.InfoWindow;
-    infowindow.setContent(htmlInfo);
-    var marker = new google.maps.Marker({
-                                        map: map,
-                                        position: pointOfPosition,
-                                        icon: iconMaker
-                                    });
-    marker.addListener('click', function() {
-            infowindow.open(map, marker);
-    });
-    infowindow.open(map, marker);
-}
+    //dropdown example
+    new Maplace({
+        locations: LocsA,
+        map_div: '#gmap-dropdown',
+        controls_title: 'Choose a location:',
+        listeners: {
+            click: function(map, event) {
+                alert('That was a click!');
+            }
+        }
+    }).Load();
+}*/
 
 function getCurrentURLPageName() {
     var path = window.location.pathname;
@@ -118,9 +146,25 @@ function getAllUrlParams(url) {
 jQuery(document).ready(function() {
     var cName = getCurrentURLPageName();
     
+    heroBanner();
+
     if(cName == "YAMAGATA") {
         galleryShow();
-        initMap('gmap', '38.570639', '140.530468', '../src/images/thumb/cS-1.jpg', 'info');
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+        new Maplace({
+            map_div: '#gmap',
+            locations: LocsA
+        }).Load();
     }
     else {
 

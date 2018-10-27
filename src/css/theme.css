@@ -2,7 +2,7 @@
  * CONTENTS
  *
  * IMPORT
- * Milligram.css........A minimalist css framework.
+ * Bulma.css............CSS framework base on Flexbox.
  * Fonts.css............Default font family.
  *
  * Global...............Globally-available variables and config.
@@ -19,24 +19,89 @@
  * ID...................Identify of DOM objects.
  * Class................Name of objects.
  *
+ * OVERRIDE
+ * Override.............Override id or class from default plugin
+ *
+ * Media Query
+ * Larger than mobile...Larger than mobile screen
+ * Larger than tablet...Larger than tablet screen
+ * Larger than desktop..Larger than desktop screen
+ *
  */
 
 
 /*------------------------------------*\
   #IMPORT
 \*------------------------------------*/
-@import "../../node_modules/milligram/dist/milligram.min.css";
+@import "../../node_modules/bulma/css/bulma.min.css";
 @import "fonts.css";
 
 
 /*------------------------------------*\
   #GLOBAL
 \*------------------------------------*/
+.allClear { overflow: hidden; clear: both; }
+.zero-margin-padding { margin: 0; padding: 0;}
+.bg-dark-gray { background-color: #4a4a4a; }
+.bg-gray { background-color: #a0a0a0; }
+.color-dark-gray { color: #4a4a4a; }
+.color-gray { color: #a0a0a0; }
+.is-fullwidth, .width100 { width: 100%; }
+.width10 { width: 10%; }
+.width20 { width: 20%; }
+.width80 { width: 80%; }
+.width90 { width: 90%; }
 
 
 /*------------------------------------*\
   #ELEMENT
 \*------------------------------------*/
 body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
     font-family: 'db_ozone_x';
+}
+dl, dt { margin: 0; }
+
+/*------------------------------------*\
+  #OBJECTS
+\*------------------------------------*/
+.herobanner-bar {
+    height: 55px;
+    line-height: 55px;
+}
+.herobanner-bar-social { margin: 0 2em; }
+.herobanner-bar-social dt { padding: 0 0.5em; }
+.vMiddle { vertical-align: middle; }
+
+
+/*------------------------------------*\
+  #OVERRIDE
+\*------------------------------------*/
+.sy-pager li {
+    width: 0.85em;
+    height: 0.85em;
+}
+.lSSlideOuter .lSPager.lSGallery img {
+    width: 100%;
+}
+
+/*------------------------------------*\
+  #MEDIA QUERY
+\*------------------------------------*/
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+
 }
