@@ -40,6 +40,14 @@ function heroBanner() {
     });*/
 }
 
+function bigbannerLazyLoad() {
+    $(".owl-carousel").owlCarousel({
+        items:1,
+        lazyLoad:true,
+        loop:true,
+    });
+}
+
 function galleryShow() {
     $("#content-slider").lightSlider({
         loop:true,
@@ -146,7 +154,8 @@ function getAllUrlParams(url) {
 jQuery(document).ready(function() {
     var cName = getCurrentURLPageName();
     
-    heroBanner();
+    //heroBanner();
+    bigbannerLazyLoad();
 
     if( cName == "YAMAGATA" || cName == "AKITA" || cName == "AOMORI"  || cName == "FUKUSHIMA" ||
         cName == "IWATE" || cName == "MIYAGI"
@@ -226,7 +235,61 @@ jQuery(document).ready(function() {
         $('[data-fancybox="gallery"]').fancybox();
     }
 
-    if(cName == "TOHOKU") {
+    if( cName == "TOHOKU-ARTS" || cName == "TOHOKU-FOOD" || cName == "TOHOKU-RAINWAY" ||
+        cName == "TOHOKU-HOT-SPRING" || cName == "TOHOKU-SPECIAL" || cName == "TOHOKU-NATURE"
+    ) {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            },
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            },
+            {
+                lat: 38.570679,
+                lon: 140.530568,
+                zoom: 14,
+                title: 'Title B1',
+                html: '<h3>Content B1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            },
+            {
+                lat: 38.570539,
+                lon: 140.530438,
+                zoom: 14,
+                title: 'Title C1',
+                html: '<h3>Content C1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            },
+            {
+                lat: 38.570591,
+                lon: 140.530268,
+                zoom: 14,
+                title: 'Title Z1',
+                html: '<h3>Content Z1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            },
+        ];
+        new Maplace({
+            map_div: '#gmap',
+            locations: LocsA
+        }).Load();
+
     }
 
     

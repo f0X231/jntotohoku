@@ -1,16 +1,39 @@
+<?php
+	// include language configuration file based on selected language
+	$lang = "th";
+	if(isset($_GET['lang'])){ 
+		$lang = $_GET['lang']; 
+	} 
+	require_once("src/lang/" . $lang . ".php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="robot" content="noindex, nofollow" />
-	<title>Title of the document</title>
 
-	<link rel="stylesheet" type="text/css" href="src/css/slippry.css?v=@VERSION">
+	<title><?php echo $language["AKITA_META_TITLE"]; ?></title>
+
+	<meta name="description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>">
+	<meta name="keywords" content="<?php echo $language["AKITA_META_KEYWORD"]; ?>">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="<?php echo $language["AKITA_META_TITLE"]; ?>" />
+	<meta property="og:description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="/AKITA" />
+	<meta property="og:site_name" content="<?php echo $language["AKITA_META_SITENAME"]; ?>" />
+	<meta property="og:image" content="<?php echo $language["AKITA_META_IMAGE"]; ?>" />
+	
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" value="summary">
+	<meta name="twitter:title" content="<?php echo $language["AKITA_META_TITLE"]; ?>">
+	<meta name="twitter:description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>">
+	<meta name="twitter:image" content="<?php echo $language["AKITA_META_IMAGE"]; ?>">
+
+	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
+	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/lightslider.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=@VERSION">
 </head>
@@ -24,16 +47,16 @@
 			<div class="is-pulled-left width80 has-text-right bg-gray">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
-						<a href="#">
+						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
 						</a>
 					</dt>
 					<dt class="is-inline-block">
-						<a href="#">
-							<img src="src/images/icon_banner_tweet.png" class="vMiddle" />
+						<a href="https://www.instagram.com/visitjapanth/" target="_blank">
+							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<dt class="is-inline-block">
+					<dt class="is-inline-block" target="_blank">
 						<a href="#">
 							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
 						</a>
@@ -41,38 +64,31 @@
 				</dl>
 			</div>
 		</div>
-		<ul id="bigbanner">
-			<li><a href="#slide1"><img src="src/images/banner/image-1.jpg" alt=""></a></li>
-			<li><a href="#slide2"><img src="src/images/banner/image-2.jpg" alt=""></a></li>
-			<li><a href="#slide3"><img src="src/images/banner/image-4.jpg" alt=""></a></li>
-		</ul>
+		<div class="owl-carousel owl-theme">
+			<div class="item"><a href=""><img src="src/images/banner/hero_banner_akita.jpg" alt=""></a></div>
+		</div>
+		<br /><br />
 	</section>
 
 	<section id="info" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold">กินซังออนเซ็น จังหวัดยามางาตะ</h1>
+		<h1 class="is-size-2 has-text-weight-bold"><?php echo $language["AKITA_INFO_TITLE"]; ?></h1>
 		<br />
-		<p class="is-size-4">
-			กินซังออนเซ็น จังหวัดยามางาตะ เป็นเมืองน้ำพุร้อนอันเงียบสงบที่ตั้งอยู่ท่ามกลางภูเขาในจังหวัดยามางาตะ แต่เดิมพื้นที่นี้ถูกสร้างขึ้นรอบ ๆ เหมืองเงิน ทว่าทุกวันนี้กลายมาเป็นที่รู้จักในฐานะเมืองน้ำพุร้อนที่สวยที่สุดแห่งหนึ่งของญี่ปุ่น พร้อมกับเรียวกังเก่าแก่ที่เรียงรายตามฝั่งน้ำ
-			<br /><br />
-			เรียวกังแบบดั้งเดิมของกินซังออนเซ็น เป็นอาคารไม้สามและสี่ชั้นที่สวยงาม เผยให้งานไม้และผนังปูนปลาสเตอร์สีขาว
-			<br /><br />
-			คุณอาจสวมยูกาตะเดินชมเมือง ยามกลางคืนเมืองจะเป็นประกายด้วยโคมไฟแก๊ส ทำให้คุณรู้สึกเหมือนได้ย้อนกลับไปในอดีต
-		</p>
+		<p class="is-size-4"><?php echo $language["AKITA_INFO_DETAIL"]; ?></p>
 		<br />
 		<br />
 		<div class="info-table is-size-4 allClear">
 			<div class="is-pulled-left width10"><img src="src/images/icon_website.png" /></div>
 			<div class="is-pulled-left width90">
-				<label class="has-text-weight-bold">เว็บไซต์ทางการที่เกี่ยวข้อง</label>
-				<p>เว็บไซต์ทางการของกินซังออนเซ็น: <br /><a href="http://ginzanonsen.jp/" class="has-text-black">http://ginzanonsen.jp/</a></p>
+				<label class="has-text-weight-bold"><?php echo $language["AKITA_INFO_WEBSITE_TITLE"]; ?></label>
+				<p><?php echo $language["AKITA_INFO_WEBSITE_LINK"]; ?></p>
 			</div>
 		</div>
 		<br />
 		<div class="info-table is-size-4 allClear">
 			<div class="is-pulled-left width10"><img src="src/images/icon_info.png"></div>
 			<div class="is-pulled-left width90">
-				<label class="has-text-weight-bold">ข้อมูลการเดินทาง</label>
-				<p>ขึ้นรถประจำทางจากสถานีโอชิดะ ไปยังกินซังออนเซ็น ใช้เวลาเดินทาง 35 นาที<br /><br />ขับรถ<br />หารถเช่าได้ที่สถานียามางาตะ สถานีมูรายามะ สถานีชินโจ หรือสนามบินยามางาตะ<br /><br />เครื่องบิน<br />จากสนามบินยามางาตะ โดยสารรถประจำทางไปยังกินซังออนเซ็น</p>
+				<label class="has-text-weight-bold"><?php echo $language["AKITA_INFO_WAY_TITLE"]; ?></label>
+				<p><?php echo $language["AKITA_INFO_WAY_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -179,6 +195,7 @@
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/slippry.min.js?v=@VERSION"></script>
+	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
 	<script src="src/js/lightslider.min.js?v=@VERSION"></script>
 	<script src="src/js/scripts.js?v=@VERSION"></script>
 	

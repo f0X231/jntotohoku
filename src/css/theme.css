@@ -48,9 +48,13 @@
 .color-dark-gray { color: #4a4a4a; }
 .color-gray { color: #a0a0a0; }
 .is-fullwidth, .width100 { width: 100%; }
+.float-left { float: left;}
 .width10 { width: 10%; }
 .width15 { width: 15%; }
 .width20 { width: 20%; }
+.width40 { width: 40%; }
+.width50 { width: 50%; }
+.width60 { width: 60%; }
 .width70 { width: 70%; }
 .width80 { width: 80%; }
 .width90 { width: 90%; }
@@ -132,17 +136,11 @@ dl, dt { margin: 0; }
 /*------------------------------------*\
   #MEDIA QUERY
 \*------------------------------------*/
-/* Larger than mobile screen */
-@media (min-width: 40.0rem) {
-
-}
-
 /* Larger than tablet screen */
-@media (min-width: 80.0rem) {
-  .vdo-youtube { padding: 20px 40px; }
-}
-
-/* Larger than desktop screen */
-@media (min-width: 120.0rem) {
-
+@media screen and (min-width: 1088px) {
+    .is-widescreen {
+        max-width: 1024px;
+        width: 1024px;
+    }
+    .vdo-youtube { padding: 20px 40px; }
 }
