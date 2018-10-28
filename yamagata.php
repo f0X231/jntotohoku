@@ -13,24 +13,24 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name=viewport content="width=device-width, initial-scale=1">
 
-	<title><?php echo $language["AKITA_META_TITLE"]; ?></title>
+	<title><?php echo $language["YAMAGATA_META_TITLE"]; ?></title>
 
-	<meta name="description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>">
-	<meta name="keywords" content="<?php echo $language["AKITA_META_KEYWORD"]; ?>">
+	<meta name="description" content="<?php echo $language["YAMAGATA_META_DESCRIPTION"]; ?>">
+	<meta name="keywords" content="<?php echo $language["YAMAGATA_META_KEYWORD"]; ?>">
 
 	<!-- Open Graph data -->
-	<meta property="og:title" content="<?php echo $language["AKITA_META_TITLE"]; ?>" />
-	<meta property="og:description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>" />
+	<meta property="og:title" content="<?php echo $language["YAMAGATA_META_TITLE"]; ?>" />
+	<meta property="og:description" content="<?php echo $language["YAMAGATA_META_DESCRIPTION"]; ?>" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="/AKITA" />
-	<meta property="og:site_name" content="<?php echo $language["AKITA_META_SITENAME"]; ?>" />
-	<meta property="og:image" content="<?php echo $language["AKITA_META_IMAGE"]; ?>" />
+	<meta property="og:site_name" content="<?php echo $language["YAMAGATA_META_SITENAME"]; ?>" />
+	<meta property="og:image" content="<?php echo $language["YAMAGATA_META_IMAGE"]; ?>" />
 	
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" value="summary">
-	<meta name="twitter:title" content="<?php echo $language["AKITA_META_TITLE"]; ?>">
-	<meta name="twitter:description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>">
-	<meta name="twitter:image" content="<?php echo $language["AKITA_META_IMAGE"]; ?>">
+	<meta name="twitter:title" content="<?php echo $language["YAMAGATA_META_TITLE"]; ?>">
+	<meta name="twitter:description" content="<?php echo $language["YAMAGATA_META_DESCRIPTION"]; ?>">
+	<meta name="twitter:image" content="<?php echo $language["YAMAGATA_META_IMAGE"]; ?>">
 
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
@@ -70,17 +70,17 @@
 		<br /><br />
 	</section>
 
-	<section id="info-akita" class="container is-widescreen">
-		<h1 class="is-size-3 has-text-weight-bold"><?php echo $language["AKITA_INFO_TITLE"]; ?></h1>
+	<section id="info-yamagata" class="container is-widescreen">
+		<h1 class="is-size-3 has-text-weight-bold"><?php echo $language["YAMAGATA_INFO_TITLE"]; ?></h1>
 		<br />
-		<p class="is-size-4"><?php echo $language["AKITA_INFO_DETAIL"]; ?></p>
+		<p class="is-size-4"><?php echo $language["YAMAGATA_INFO_DETAIL"]; ?></p>
 		<br />
 		<br />
 		<div class="info-table is-size-4 allClear">
 			<div class="is-pulled-left width10"><img src="src/images/icon_website.png" /></div>
 			<div class="is-pulled-left width90">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_WEBSITE"]; ?></label>
-				<p><?php echo $language["AKITA_WEBSITE_LINK"]; ?></p>
+				<p><?php echo $language["YAMAGATA_WEBSITE_LINK"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -88,7 +88,7 @@
 			<div class="is-pulled-left width10"><img src="src/images/icon_info.png"></div>
 			<div class="is-pulled-left width90">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_WAY"]; ?></label>
-				<p><?php echo $language["AKITA_WAY_DETAIL"]; ?></p>
+				<p><?php echo $language["YAMAGATA_WAY_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -96,7 +96,7 @@
 			<div class="is-pulled-left width10"><img src="src/images/icon_addr.png" /></div>
 			<div class="is-pulled-left width90">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_ADDR"]; ?></label>
-				<p><?php echo $language["AKITA_ADDR_DETAIL"]; ?></p>
+				<p><?php echo $language["YAMAGATA_ADDR_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -104,7 +104,7 @@
 			<div class="is-pulled-left width10"><img src="src/images/icon_gps.png" /></div>
 			<div class="is-pulled-left width90">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_GPS"]; ?></label>
-				<p><?php echo $language["AKITA_GPS_DETAIL"]; ?></p>
+				<p><?php echo $language["YAMAGATA_GPS_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -113,7 +113,7 @@
 	</section>
 	<section id="gallery" class="container is-widescreen">
 		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["HEADER_GALLERY"]; ?></h1>
-		<p class="is-size-4 has-text-centered"><?php echo $language["AKITA_GALLERY_INFO"]; ?></p>
+		<p class="is-size-4 has-text-centered"><?php echo $language["YAMAGATA_GALLERY_INFO"]; ?></p>
 		<br />
 		<div>
 			<ul id="image-gallery" class="gallery list-unstyled cS-hidden">
@@ -163,9 +163,9 @@
 		<br />
 	</section>
 	<section id="location" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["AKITA_LOCATION_TITLE"]; ?></h1>
+		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["YAMAGATA_LOCATION_TITLE"]; ?></h1>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
-		<p class="is-size-4 has-text-centered"><?php echo $language["AKITA_LOCATION_DETAIL"]; ?></p>
+		<p class="is-size-4 has-text-centered"><?php echo $language["YAMAGATA_LOCATION_DETAIL"]; ?></p>
 		<br />
 		<div class="columns marpad-bottom-one">
 			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_towada_lake.png" width="100%" /></a></div>

@@ -44,18 +44,28 @@ function bigbannerLazyLoad() {
     $(".owl-carousel").owlCarousel({
         items:1,
         lazyLoad:true,
-        loop:true,
+        loop:false,
+        autoplay:false
     });
 }
 
 function galleryShow() {
+    var browserWidth = $(window).width();
+    var showThumbnailItem = true;
+
+    if(browserWidth <= 768) {
+        showThumbnailItem = false;
+    }
+
     $("#content-slider").lightSlider({
         loop:true,
         keyPress:true
     });
+
     $('#image-gallery').lightSlider({
         gallery:true,
         item:1,
+        gallery: showThumbnailItem,
         thumbItem: 6,
         slideMargin: 0,
         speed:500,
@@ -154,25 +164,99 @@ function getAllUrlParams(url) {
 jQuery(document).ready(function() {
     var cName = getCurrentURLPageName();
     
-    //heroBanner();
+    /* Default load */
     bigbannerLazyLoad();
 
-    if( cName == "YAMAGATA" || cName == "AKITA" || cName == "AOMORI"  || cName == "FUKUSHIMA" ||
-        cName == "IWATE" || cName == "MIYAGI"
-    )
-    {
-        galleryShow();
+    /* Load on Pages */
+    if(cName == "AKITA") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
-                zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                lat: 39.751889, 
+                lon: 140.650419,
+                zoom: 11,
+                title: 'AKITA อะคิตะ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AKITA อะคิตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
         ];
+    }
+
+    if(cName == "AOMORI") {
+        var LocsA = [
+            {
+                lat: 40.469747, 
+                lon: 140.876058,
+                zoom: 11,
+                title: 'AOMORI อะโอโมริ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AOMORI อะโอโมริ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "FUKUSHIMA") {
+        var LocsA = [
+            {
+                lat: 37.350761, 
+                lon: 139.314857,
+                zoom: 11,
+                title: 'FUKUSHIMA ฟุคุชิมะ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">FUKUSHIMA ฟุคุชิมะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "IWATE") {
+        var LocsA = [
+            {
+                lat: 40.002681, 
+                lon: 140.970314,
+                zoom: 11,
+                title: 'IWATE อิวะเตะ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">IWATE อิวะเตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "MIYAGI") {
+        var LocsA = [
+            {
+                lat: 38.135395,
+                lon: 140.494937,
+                zoom: 11,
+                title: 'MIYAGI มิยางิ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">MIYAGI มิยางิ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "YAMAGATA") {
+        var LocsA = [
+            {
+                lat: 38.570639, 
+                lon: 140.530468,
+                zoom: 11,
+                title: 'YAMAGATA ยามากาตะ',
+                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">YAMAGATA ยามากาตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if( cName == "YAMAGATA" || cName == "AKITA" || cName == "AOMORI"  || 
+        cName == "FUKUSHIMA" || cName == "IWATE" || cName == "MIYAGI"
+    )
+    {
+        galleryShow();
         new Maplace({
             map_div: '#gmap',
             locations: LocsA

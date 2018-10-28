@@ -41,8 +41,13 @@
 /*------------------------------------*\
   #GLOBAL
 \*------------------------------------*/
+.fontDBOzone { font-family: 'db_ozone_x'; }
 .allClear { overflow: hidden; clear: both; }
 .zero-margin-padding { margin: 0; padding: 0;}
+.marpad-bottom-one {
+    margin-bottom: 1px !important;
+    padding-bottom: 1px !important;
+}
 .bg-dark-gray { background-color: #4a4a4a; }
 .bg-gray { background-color: #a0a0a0; }
 .color-dark-gray { color: #4a4a4a; }
@@ -58,7 +63,8 @@
 .width70 { width: 70%; }
 .width80 { width: 80%; }
 .width90 { width: 90%; }
-
+.width200 { width: 150px; }
+.width-200 { width: calc(100% - 150px); }
 
 /*------------------------------------*\
   #ELEMENT
@@ -76,6 +82,7 @@ dl, dt { margin: 0; }
 /*------------------------------------*\
   #COMPONENT
 \*------------------------------------*/
+/* Youtube */
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -103,16 +110,24 @@ dl, dt { margin: 0; }
 }
 
 
-
 /*------------------------------------*\
   #OBJECTS
 \*------------------------------------*/
+#info-akita, #info-aomori, #info-fukushima, #info-iwate, #info-miyagi, #info-yamagata {
+    background-image: url('../images/bg_jp_map.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#gmap {
+    width: 100%;
+    height: 460px;
+}
 .herobanner-bar {
     height: 55px;
     line-height: 55px;
 }
-.herobanner-bar-social { margin: 0 2em; }
-.herobanner-bar-social dt { padding: 0 0.5em; }
+.herobanner-bar-social { margin: 0 0.25em; }
+.herobanner-bar-social dt { padding: 0 0.125em; }
 .vMiddle { vertical-align: middle; }
 .location-vdo {
     margin: 2px 0;
@@ -133,10 +148,20 @@ dl, dt { margin: 0; }
     width: 100%;
 }
 
+
 /*------------------------------------*\
   #MEDIA QUERY
 \*------------------------------------*/
 /* Larger than tablet screen */
+@media screen and (min-width: 769px) {
+    .width200 { width: 200px; }
+    .width-200 { width: calc(100% - 200px); }
+    .herobanner-bar-social { margin: 0 2em; }
+    .herobanner-bar-social dt { padding: 0 0.5em; }
+    #gmap {
+        height: 620px;
+    }
+}
 @media screen and (min-width: 1088px) {
     .is-widescreen {
         max-width: 1024px;
