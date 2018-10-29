@@ -173,7 +173,7 @@ jQuery(document).ready(function() {
             {
                 lat: 39.751889, 
                 lon: 140.650419,
-                zoom: 11,
+                zoom: 14,
                 title: 'AKITA อะคิตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AKITA อะคิตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -187,7 +187,7 @@ jQuery(document).ready(function() {
             {
                 lat: 40.469747, 
                 lon: 140.876058,
-                zoom: 11,
+                zoom: 14,
                 title: 'AOMORI อะโอโมริ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AOMORI อะโอโมริ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -201,7 +201,7 @@ jQuery(document).ready(function() {
             {
                 lat: 37.350761, 
                 lon: 139.314857,
-                zoom: 11,
+                zoom: 14,
                 title: 'FUKUSHIMA ฟุคุชิมะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">FUKUSHIMA ฟุคุชิมะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -215,7 +215,7 @@ jQuery(document).ready(function() {
             {
                 lat: 40.002681, 
                 lon: 140.970314,
-                zoom: 11,
+                zoom: 14,
                 title: 'IWATE อิวะเตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">IWATE อิวะเตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -229,7 +229,7 @@ jQuery(document).ready(function() {
             {
                 lat: 38.135395,
                 lon: 140.494937,
-                zoom: 11,
+                zoom: 14,
                 title: 'MIYAGI มิยางิ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">MIYAGI มิยางิ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -243,7 +243,7 @@ jQuery(document).ready(function() {
             {
                 lat: 38.570639, 
                 lon: 140.530468,
-                zoom: 11,
+                zoom: 14,
                 title: 'YAMAGATA ยามากาตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">YAMAGATA ยามากาตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
@@ -252,17 +252,7 @@ jQuery(document).ready(function() {
         ];
     }
 
-    if( cName == "YAMAGATA" || cName == "AKITA" || cName == "AOMORI"  || 
-        cName == "FUKUSHIMA" || cName == "IWATE" || cName == "MIYAGI"
-    )
-    {
-        galleryShow();
-        new Maplace({
-            map_div: '#gmap',
-            locations: LocsA
-        }).Load();
-    }
-
+    
     if(cName == "MEDIA-INNER") {
         var LocsA = [
             {
@@ -319,9 +309,7 @@ jQuery(document).ready(function() {
         $('[data-fancybox="gallery"]').fancybox();
     }
 
-    if( cName == "TOHOKU-ARTS" || cName == "TOHOKU-FOOD" || cName == "TOHOKU-RAINWAY" ||
-        cName == "TOHOKU-HOT-SPRING" || cName == "TOHOKU-SPECIAL" || cName == "TOHOKU-NATURE"
-    ) {
+    if(cName == "TOHOKU-ARTS") {
         var LocsA = [
             {
                 lat: 38.570639,
@@ -333,8 +321,8 @@ jQuery(document).ready(function() {
                 animation: google.maps.Animation.DROP
             },
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 38.570539,
+                lon: 140.530568,
                 zoom: 14,
                 title: 'Title A1',
                 html: '<h3>Content A1</h3>',
@@ -349,34 +337,106 @@ jQuery(document).ready(function() {
                 html: '<h3>Content B1</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "TOHOKU-RAINWAY") {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "TOHOKU-SPECIAL") {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "TOHOKU-FOOD") {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "TOHOKU-NATURE") {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
+            }
+        ];
+    }
+
+    if(cName == "TOHOKU-HOT-SPRING") {
+        var LocsA = [
+            {
+                lat: 38.570639,
+                lon: 140.530468,
+                zoom: 14,
+                title: 'Title A1',
+                html: '<h3>Content A1</h3>',
+                icon: './src/images/maker_yamagata.png',
+                animation: google.maps.Animation.DROP
             },
             {
                 lat: 38.570539,
-                lon: 140.530438,
-                zoom: 14,
-                title: 'Title C1',
-                html: '<h3>Content C1</h3>',
-                icon: './src/images/maker_yamagata.png',
-                animation: google.maps.Animation.DROP
-            },
-            {
-                lat: 38.570591,
                 lon: 140.530268,
                 zoom: 14,
-                title: 'Title Z1',
-                html: '<h3>Content Z1</h3>',
+                title: 'Title B1',
+                html: '<h3>Content B1</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
-            },
+            }
         ];
+    }
+
+    if( cName == "YAMAGATA" || cName == "AKITA" || cName == "AOMORI"  || 
+        cName == "FUKUSHIMA" || cName == "IWATE" || cName == "MIYAGI" ) {
+        galleryShow();
         new Maplace({
             map_div: '#gmap',
             locations: LocsA
         }).Load();
-
     }
 
-    
+    if( cName == "TOHOKU-ARTS" || cName == "TOHOKU-RAINWAY"  || cName == "TOHOKU-SPECIAL" ||
+        cName == "TOHOKU-FOOD" || cName == "TOHOKU-NATURE"  || cName == "TOHOKU-HOT-SPRING")
+    {
+        new Maplace({
+            map_div: '#gmap',
+            locations: LocsA
+        }).Load();
+    }
 
 });
 

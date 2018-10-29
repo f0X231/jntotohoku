@@ -7,6 +7,7 @@ $language = array(
 			'HEADER_ADDR'				=> 'Address',
 			'HEADER_GPS'				=> 'GPS Code',
 			'HEADER_GALLERY'			=> 'Photo library',
+			'HEADER_MAP'				=> 'MAP',
 
 			'AKITA_META_TITLE'			=> 'Page Title. Maximum length 60-70 characters',
 			'AKITA_META_DESCRIPTION'	=> 'Page description. No longer than 155 characters.',
@@ -108,6 +109,12 @@ $language = array(
 			'YAMAGATA_LOCATION_TITLE'	=> 'Page to each 6 desitinations',
 			'YAMAGATA_LOCATION_DETAIL'	=> 'You can see more detail of each destinations.',
 
+			/* TOHOKU ARTS */
+			'TOHOKUART_META_TITLE'		=> 'Page Title. Maximum length 60-70 characters',
+			'TOHOKUART_META_DESCRIPTION'=> 'Page description. No longer than 155 characters.',
+			'TOHOKUART_META_KEYWORD'	=> 'Page keyword. 10 - 15 keyword',
+			'TOHOKUART_META_IMAGE'		=> 'http://www.example.com/image.jpg',
+			'TOHOKUART_META_SITENAME'	=> 'Site Name, i.e. jntohoku',
 		);
 
 ?>

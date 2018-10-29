@@ -117,38 +117,23 @@
 		<br />
 		<div>
 			<ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-				<li data-thumb="src/images/gallery/cS-1.jpg"> 
-					<img src="src/images/gallery/cS-1.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi1.jpg"> 
+					<img src="src/images/gallery/miyagi1.jpg" class="is-fullwidth" />
 				</li>
-				<li data-thumb="src/images/gallery/cS-2.jpg"> 
-					<img src="src/images/gallery/cS-2.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi2.jpg"> 
+					<img src="src/images/gallery/miyagi2.jpg" class="is-fullwidth" />
 				</li>
-				<li data-thumb="src/images/gallery/cS-3.jpg"> 
-					<img src="src/images/gallery/cS-3.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi3.jpg"> 
+					<img src="src/images/gallery/miyagi3.jpg" class="is-fullwidth" />
 				</li>
-				<li data-thumb="src/images/gallery/cS-4.jpg"> 
-					<img src="src/images/gallery/cS-4.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi4.jpg"> 
+					<img src="src/images/gallery/miyagi4.jpg" class="is-fullwidth" />
 				</li>
-				<li data-thumb="src/images/gallery/cS-5.jpg"> 
-					<img src="src/images/gallery/cS-5.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi5.jpg"> 
+					<img src="src/images/gallery/miyagi5.jpg" class="is-fullwidth" />
 				</li>
-				<li data-thumb="src/images/gallery/cS-6.jpg"> 
-					<img src="src/images/gallery/cS-6.jpg" class="is-fullwidth" />
-				</li>
-				<li data-thumb="src/images/gallery/cS-7.jpg"> 
-					<img src="src/images/gallery/cS-7.jpg" class="is-fullwidth" />
-				</li>
-				<li data-thumb="src/images/gallery/cS-8.jpg"> 
-					<img src="src/images/gallery/cS-8.jpg" class="is-fullwidth" />
-				</li>
-				<li data-thumb="src/images/gallery/cS-9.jpg">
-					<img src="src/images/gallery/cS-9.jpg" class="is-fullwidth" />
-				</li>
-				<li data-thumb="src/images/gallery/cS-10.jpg"> 
-					<img src="src/images/gallery/cS-10.jpg" class="is-fullwidth" />
-				</li>
-				<li data-thumb="src/images/gallery/cS-11.jpg"> 
-					<img src="src/images/gallery/cS-11.jpg" class="is-fullwidth" />
+				<li data-thumb="src/images/gallery/miyagi6.jpg"> 
+					<img src="src/images/gallery/miyagi6.jpg" class="is-fullwidth" />
 				</li>
 			</ul>
 		</div>
@@ -162,7 +147,7 @@
 		<br />
 		<br />
 	</section>
-	<section id="location" class="container is-widescreen">
+	<section id="location" class="container is-widescreen bgInsprise">
 		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["MIYAGI_LOCATION_TITLE"]; ?></h1>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
 		<p class="is-size-4 has-text-centered"><?php echo $language["MIYAGI_LOCATION_DETAIL"]; ?></p>
@@ -173,10 +158,10 @@
 		</div>
 		<div class="columns marpad-bottom-one">
 			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_snow_monster.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_tadami_line.png" width="100%" /></a></div>
 			<div class="column marpad-bottom-one">&nbsp;</div>
 		</div>
 		<br />
