@@ -56,11 +56,11 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<dt class="is-inline-block" target="_blank">
-						<a href="#">
+					<!--dt class="is-inline-block">
+						<a href="#" target="_blank">
 							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
 						</a>
-					</dt>
+					</dt-->
 				</dl>
 			</div>
 		</div>
@@ -153,15 +153,15 @@
 		<p class="is-size-4 has-text-centered"><?php echo $language["MIYAGI_LOCATION_DETAIL"]; ?></p>
 		<br />
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="akita.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="fukushima.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="miyagi.php" target="_blank"><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href=""><img src="src/images/local_tadami_line.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="yamagata.php" target="_blank"><img src="src/images/local_tadami_line.png" width="100%" /></a></div>
 			<div class="column marpad-bottom-one">&nbsp;</div>
 		</div>
 		<br />
@@ -176,11 +176,22 @@
 		<br />
 	</section>
 
+	<section id="gobackhome" class="container is-widescreen">
+		<br />
+		<div class="is-size-3 has-text-weight-bold has-text-centered">
+			<a href="tohoku.php">
+				<u class="has-text-black">Go To Tohoku Page</u>
+			</a>
+		</div>
+		<br />
+	</section>
+
 	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
 	<script src="src/js/lightslider.min.js?v=@VERSION"></script>
+	<script src="src/js/gotoTop.js?v=@VERSION"></script>
 	<script src="src/js/scripts.js?v=@VERSION"></script>
 	
 </body>

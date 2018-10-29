@@ -54,11 +54,11 @@
 							<img src="src/images/icon_banner_tweet.png" class="vMiddle" />
 						</a>
 					</dt>
-					<dt class="is-inline-block">
-						<a href="#">
+					<!--dt class="is-inline-block">
+						<a href="#" target="_blank">
 							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
 						</a>
-					</dt>
+					</dt-->
 				</dl>
 			</div>
 			<div class="is-pulled-left width120 has-text-centered bg-black-gray">
@@ -138,12 +138,23 @@
 		<hr class="has-text-grey-lighter" />
 		<br />
 	</section>
+
+	<section id="gobackhome" class="container is-widescreen">
+		<br />
+		<div class="is-size-3 has-text-weight-bold has-text-centered">
+			<a href="tohoku.php">
+				<u class="has-text-black">Go To Tohoku Page</u>
+			</a>
+		</div>
+		<br />
+	</section>
 	
 
 	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
     <script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
     <script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
+	<script src="src/js/gotoTop.js?v=@VERSION"></script>
 	<script src="src/js/scripts.js?v=@VERSION"></script>
 	
 </body>

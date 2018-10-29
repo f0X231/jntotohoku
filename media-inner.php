@@ -46,11 +46,11 @@
 							<img src="src/images/icon_banner_tweet.png" class="vMiddle" />
 						</a>
 					</dt>
-					<dt class="is-inline-block">
-						<a href="#">
+					<!--dt class="is-inline-block">
+						<a href="#" target="_blank">
 							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
 						</a>
-					</dt>
+					</dt-->
 				</dl>
 			</div>
 			<div class="is-pulled-left width120 has-text-centered bg-black-gray">
@@ -62,12 +62,9 @@
 		</div>
 		<br />
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKUART_INFO"]; ?></p>
-		<br />
-		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
-		<br />
     </section>
 
-	<section id="artist" class="container is-widescreen bgMainDanPattie">
+	<section id="artist" class="container is-widescreen bgMainDanPattie" style="margin-top:-3%;">
 		<div class="has-text-centered">
 			<img src="src/images/pic-dan-pat.png" />
 		</div>
@@ -117,32 +114,32 @@
 			(อาโอโมริ อะคิตะ อิวาเตะ) เป็น 6 คลิปต่อไปนี้<br />
 			ขอเชิญชมและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ
 		</p>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_art_of_aomori.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_art_of_aomori.jpg');" onclick="window.open('aomori.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_food_of_aomori.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_food_of_aomori.jpg');" onclick="window.open('aomori.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_railway_of_akita.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_railway_of_akita.jpg');" onclick="window.open('akita.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_culture_of_akita.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_culture_of_akita.jpg');"  onclick="window.open('akita.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_nature_of_iwate.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_nature_of_iwate.jpg');"  onclick="window.open('iwate.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px; background-image:url('src/images/local_cultural_of_iwate.jpg');">
+		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_cultural_of_iwate.jpg');"  onclick="window.open('iwate.php');">
 			<div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div>
@@ -156,25 +153,37 @@
 		<br />
 		<div class="columns">
 			<div class="column">
-				<a href="src/images/gallery/main1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/main1.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/akita2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/akita2.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 			<div class="column">
-				<a href="src/images/gallery/main1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/main1.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/aomori3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/aomori3.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 		</div>
 		<div class="columns">
 			<div class="column">
-				<a href="src/images/gallery/main1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/main1.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/fukushima3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/fukushima3.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 			<div class="column">
-				<a href="src/images/gallery/main1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/main1.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/iwate1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/iwate1.jpg" class="is-fullwidth" />
+				</a>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<a href="src/images/gallery/iwate2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/iwate2.jpg" class="is-fullwidth" />
+				</a>
+			</div>
+			<div class="column">
+				<a href="src/images/gallery/miyagi3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/miyagi3.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 		</div>
@@ -190,6 +199,16 @@
 		<hr class="has-text-grey-lighter" />
 		<br />
 	</section>
+
+	<section id="gobackhome" class="container is-widescreen">
+		<br />
+		<div class="is-size-3 has-text-weight-bold has-text-centered">
+			<a href="tohoku.php">
+				<u class="has-text-black">Go To Tohoku Page</u>
+			</a>
+		</div>
+		<br />
+	</section>
 	
 
 	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
@@ -197,6 +216,7 @@
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
 	<script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+	<script src="src/js/gotoTop.js?v=@VERSION"></script>
 	<script src="src/js/scripts.js?v=@VERSION"></script>
 	
 </body>
