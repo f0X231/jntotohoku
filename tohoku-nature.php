@@ -45,13 +45,13 @@
 			<div class="is-pulled-left width-370 has-text-right bg-gray">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
-						<a href="#">
+						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
 						</a>
 					</dt>
 					<dt class="is-inline-block">
-						<a href="#">
-							<img src="src/images/icon_banner_tweet.png" class="vMiddle" />
+						<a href="https://www.instagram.com/visitjapanth/" target="_blank">
+							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
 					<!--dt class="is-inline-block">
@@ -80,7 +80,7 @@
 		<h2 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKUNT_YOUTUBE"]; ?></h2>
 		<br />
 		<div class="video-container">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
+			<iframe width="853" height="480" src="https://www.youtube.com/embed/kRf_lPowRw4" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br />
 	</section>
@@ -106,7 +106,7 @@
     </section>
 
 	<section id="tips" class="container is-widescreen">
-		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
 		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -116,15 +116,13 @@
 	<section id="gobackhome" class="container is-widescreen">
 		<br />
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
-			<a href="tohoku.php">
-				<u class="has-text-black">Go To Tohoku Page</u>
-			</a>
+			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
 		<br />
 	</section>
 	
 
-	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
     <script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
     <script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>

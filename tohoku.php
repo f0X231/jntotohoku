@@ -75,7 +75,7 @@
 	</section>
 
 	<section id="info-tohoku" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold"><?php echo $language["TOHOKU_TITLE"]; ?></h1>
+		<h1 class="is-size-3 has-text-weight-bold"><?php echo $language["TOHOKU_TITLE"]; ?></h1>
 		<br />
 		<p class="is-size-4"><?php echo $language["TOHOKU_INFO"]; ?></p>
 	</section>
@@ -118,15 +118,14 @@
 	</section>
 
 	<section id="tips" class="container is-widescreen">
-		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
 		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />
 	</section>
 	
-
-	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
 	<script src="src/js/gotoTop.js?v=@VERSION"></script>

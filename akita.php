@@ -71,7 +71,7 @@
 	</section>
 
 	<section id="info-akita" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold"><?php echo $language["AKITA_INFO_TITLE"]; ?></h1>
+		<h1 class="is-size-3 has-text-weight-bold"><?php echo $language["AKITA_INFO_TITLE"]; ?></h1>
 		<br />
 		<p class="is-size-4"><?php echo $language["AKITA_INFO_DETAIL"]; ?></p>
 		<br />
@@ -95,16 +95,16 @@
 		<div class="info-table is-size-4 allClear">
 			<div class="is-pulled-left width10"><img src="src/images/icon_addr.png" /></div>
 			<div class="is-pulled-left width90">
-				<label class="has-text-weight-bold"></label>
-				<p>กินซังชินฮาตะ โอบังอาซาวะ-ชิ จังหวัดยามางาตะ 999-4333 ญี่ปุ่น</p>
+				<label class="has-text-weight-bold"><?php echo $language["HEADER_ADDR"]; ?></label>
+				<p><?php echo $language["AKITA_ADDR_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
 		<div class="info-table is-size-4 allClear">
 			<div class="is-pulled-left width10"><img src="src/images/icon_gps.png" /></div>
 			<div class="is-pulled-left width90">
-				<label class="has-text-weight-bold">พิกัด GPS</label>
-				<p><a href="" class="has-text-black">38.570639, 140.530468</a></p>
+				<label class="has-text-weight-bold"><?php echo $language["HEADER_GPS"]; ?></label>
+				<p><?php echo $language["AKITA_GPS_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -168,7 +168,7 @@
 		<br />
 	</section>
 	<section id="tips" class="container is-widescreen">
-		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
 		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -177,15 +177,12 @@
 	<section id="gobackhome" class="container is-widescreen">
 		<br />
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
-			<a href="tohoku.php">
-				<u class="has-text-black">Go To Tohoku Page</u>
-			</a>
+			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
 		<br />
 	</section>
-	
 
-	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/slippry.min.js?v=@VERSION"></script>

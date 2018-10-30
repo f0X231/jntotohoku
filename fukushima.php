@@ -161,7 +161,7 @@
 		<br />
 	</section>
 	<section id="tips" class="container is-widescreen">
-		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
 		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -171,14 +171,12 @@
 	<section id="gobackhome" class="container is-widescreen">
 		<br />
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
-			<a href="tohoku.php">
-				<u class="has-text-black">Go To Tohoku Page</u>
-			</a>
+			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
 		<br />
 	</section>
 
-	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>

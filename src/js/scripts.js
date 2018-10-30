@@ -171,8 +171,8 @@ jQuery(document).ready(function() {
     if(cName == "AKITA") {
         var LocsA = [
             {
-                lat: 38.570639, 
-                lon: 140.530468,
+                lat: 39.751889,
+                lon: 140.650419,
                 zoom: 14,
                 title: 'AKITA อะคิตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AKITA อะคิตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -185,8 +185,8 @@ jQuery(document).ready(function() {
     if(cName == "AOMORI") {
         var LocsA = [
             {
-                lat: 40.469747, 
-                lon: 140.876058,
+                lat: 40.4556014,
+                lon: 140.8674403,
                 zoom: 14,
                 title: 'AOMORI อะโอโมริ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AOMORI อะโอโมริ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -199,8 +199,8 @@ jQuery(document).ready(function() {
     if(cName == "FUKUSHIMA") {
         var LocsA = [
             {
-                lat: 37.350761, 
-                lon: 139.314857,
+                lat: 37.4587225,
+                lon: 139.5307963,
                 zoom: 14,
                 title: 'FUKUSHIMA ฟุคุชิมะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">FUKUSHIMA ฟุคุชิมะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -213,8 +213,8 @@ jQuery(document).ready(function() {
     if(cName == "IWATE") {
         var LocsA = [
             {
-                lat: 40.002681, 
-                lon: 140.970314,
+                lat: 40.0062285,
+                lon: 140.9719531,
                 zoom: 14,
                 title: 'IWATE อิวะเตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">IWATE อิวะเตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -227,8 +227,8 @@ jQuery(document).ready(function() {
     if(cName == "MIYAGI") {
         var LocsA = [
             {
-                lat: 38.135395,
-                lon: 140.494937,
+                lat: 38.1090127,
+                lon: 140.4559163,
                 zoom: 14,
                 title: 'MIYAGI มิยางิ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">MIYAGI มิยางิ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -241,8 +241,8 @@ jQuery(document).ready(function() {
     if(cName == "YAMAGATA") {
         var LocsA = [
             {
-                lat: 38.570639, 
-                lon: 140.530468,
+                lat: 38.5705593,
+                lon: 140.5296631,
                 zoom: 14,
                 title: 'YAMAGATA ยามากาตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">YAMAGATA ยามากาตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',

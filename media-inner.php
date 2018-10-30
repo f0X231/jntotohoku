@@ -1,3 +1,12 @@
+<?php
+	// include language configuration file based on selected language
+	$lang = "th";
+	if(isset($_GET['lang'])){ 
+		$lang = $_GET['lang']; 
+	} 
+	require_once("src/lang/" . $lang . ".php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,13 +46,13 @@
 			<div class="is-pulled-left width-370 has-text-right bg-gray">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
-						<a href="#">
+						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
 						</a>
 					</dt>
 					<dt class="is-inline-block">
-						<a href="#">
-							<img src="src/images/icon_banner_tweet.png" class="vMiddle" />
+						<a href="https://www.instagram.com/visitjapanth/" target="_blank">
+							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
 					<!--dt class="is-inline-block">
@@ -61,7 +70,7 @@
 			<div class="item"><a href=""><img src="src/images/banner/hero_banner_main.jpg" alt=""></a></div>
 		</div>
 		<br />
-		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKUART_INFO"]; ?></p>
+		<!--p class="is-size-4 has-text-centered"><?php //echo $language["TOHOKUART_INFO"]; ?></p-->
     </section>
 
 	<section id="artist" class="container is-widescreen bgMainDanPattie" style="margin-top:-25px;">
@@ -70,10 +79,12 @@
 		</div>
 		<h1 class="is-size-2 has-text-centered has-text-weight-bold">Dan Worrawech x Pattie ungsumalynn</h1>
 		<p class="is-size-4 has-text-centered has-text-weight-bold">วรเวช ดานุวงศ์ และ อังศุมาลิน สิรภัทรศักดิ์เมธา<br />ชื่อเล่น : แดน และ แพทตี้</p>
-		<div class="columns">
+		<div class="columns is-mobile">
 			<div class="column is-two-fifths has-text-right is-flex-mobile">
-				<img src="src/images/icon_ig_black.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<img src="src/images/vertical-line.png" />
+				<div class="is-fullwidth has-text-right">
+					<img src="src/images/icon_ig_black.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="src/images/vertical-line.png" />
+				</div>
 			</div>
 			<div class="column is-size-4">
 				<p>นักร้อง, นัแแสดงม</p>
@@ -115,37 +126,37 @@
 			ขอเชิญชมและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ
 		</p>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-arts.php"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
+			<a href="tohoku-arts.php" target="_blank"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-food.php"><img src="src/images/local_food_of_aomori.jpg" width="100%;" /></a>
+			<a href="tohoku-food.php" target="_blank"><img src="src/images/local_food_of_aomori.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-railway.php"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
+			<a href="tohoku-railway.php" target="_blank"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-hot-spring.php"><img src="src/images/local_culture_of_akita.jpg" width="100%;" /></a>
+			<a href="tohoku-hot-spring.php" target="_blank"><img src="src/images/local_culture_of_akita.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-nature.php"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
+			<a href="tohoku-nature.php" target="_blank"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-special.php"><img src="src/images/local_cultural_of_iwate.jpg" width="100%;" /></a>
+			<a href="tohoku-special.php" target="_blank"><img src="src/images/local_cultural_of_iwate.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
@@ -199,7 +210,7 @@
 	
 	
 	<section id="tips" class="container is-widescreen">
-		<div><a href=""><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php"><img src="src/images/tips1.jpg" /></a></div>
 		<div><a href=""><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -209,15 +220,13 @@
 	<section id="gobackhome" class="container is-widescreen">
 		<br />
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
-			<a href="tohoku.php">
-				<u class="has-text-black">Go To Tohoku Page</u>
-			</a>
+			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
 		<br />
 	</section>
 	
 
-	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
 	<script src="node_modules/maplace-js/dist/maplace.min.js?v=@VERSION"></script>
 	<script src="src/js/owl.carousel.min.js?v=@VERSION"></script>
