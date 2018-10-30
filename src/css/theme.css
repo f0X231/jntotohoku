@@ -68,9 +68,10 @@
 .width90 { width: 90%; }
 .width120 { width: 110px; }
 .width150 { width: 140px; }
-.width-370 { width: calc(100% - 350px); }
+.width-370 { width: calc(100% - 250px); }
 .width200 { width: 135px; }
 .width-200 { width: calc(100% - 135px); }
+.lineheight1-5 { line-height: 1.5rem; }
 
 /*------------------------------------*\
   #ELEMENT
@@ -134,18 +135,42 @@ dl, dt { margin: 0; }
   #OBJECTS
 \*------------------------------------*/
 #info-tohoku{
-    background-image: url('../images/map_bg-landing.png');
+    background-image: url('../images/map_bg-landing-mini.png');
     background-position: right top;
     background-repeat: no-repeat;
 }
 #info-danpattie{
-    background-image: url('../images/bg_tohoku.png');
+    background-image: url('../images/bg_tohoku-mini.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#info-akita {
+    background-image: url('../images/bg_jp_map_akita_mini.png');
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: cover;
 }
-#info-akita, #info-aomori, #info-fukushima, #info-iwate, #info-miyagi, #info-yamagata {
-    background-image: url('../images/bg_jp_map.png');
+#info-aomori {
+    background-image: url('../images/bg_jp_map_aomori_mini.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#info-fukushima {
+    background-image: url('../images/bg_jp_map_fukushima_mini.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#info-iwate {
+    background-image: url('../images/bg_jp_map_iwate_mini.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#info-miyagi {
+    background-image: url('../images/bg_jp_map_miyagi_mini.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#info-yamagata {
+    background-image: url('../images/bg_jp_map_yamagata_mini.png');
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -207,6 +232,18 @@ dl, dt { margin: 0; }
 \*------------------------------------*/
 /* Larger than tablet screen */
 @media screen and (min-width: 769px) {
+    #info-akita { background-image: url('../images/bg_jp_map_akita.png'); }
+    #info-aomori { background-image: url('../images/bg_jp_map_aomori.png'); }
+    #info-fukushima { background-image: url('../images/bg_jp_map_fukushima.png'); }
+    #info-iwate { background-image: url('../images/bg_jp_map_iwate.png'); }
+    #info-miyagi { background-image: url('../images/bg_jp_map_miyagi.png');}
+    #info-yamagata { background-image: url('../images/bg_jp_map_yamagata.png'); }
+    #info-tohoku{ background-image: url('../images/map_bg-landing.png'); }
+    #info-danpattie{
+        background-image: url('../images/bg_tohoku.png');
+        background-position: right top;
+        background-size: cover;
+    }
     .width120 { width: 140px; }
     .width150 { width: 180px; }
     .width-370 { width: calc(100% - 320px); }

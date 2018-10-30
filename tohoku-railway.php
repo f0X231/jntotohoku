@@ -75,7 +75,7 @@
 		<br />
     </section>
     
-    <section id="artist-vdo" class="container is-widescreen bgsnow">
+    <section id="railway-vdo" class="container is-widescreen bgsnow">
 		<h2 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKURAINWAY_YOUTUBE"]; ?></h2>
 		<br />
 		<div class="video-container">
@@ -85,28 +85,22 @@
 	</section>
 
 
-	<section id="location-arts" class="container is-widescreen">
+	<section id="railway-location-1" class="container is-widescreen">
         <h2 class="is-size-3 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKURAINWAY_LOCATION"]; ?></h2>
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKURAINWAY_LOCATION_NAME"]; ?></p>
 		<br />
-	    <div class="width100 allClear">
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-rainway-1.jpg');"></div>
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-rainway-2.jpg');"></div>
-        </div>
+		<img src="src/images/theme/themeRainway1.jpg" width="100%" />
 		<br />
-        <p class="is-size-4"><?php echo $language["TOHOKURAINWAY_LOCATION_TXT1"]; ?></p>
+        <p class="is-size-4 lineheight1-5"><?php echo $language["TOHOKURAINWAY_LOCATION_TXT1"]; ?></p>
 		<br /><br />
     </section>
     
     <section id="location-temple" class="container is-widescreen">
         <h2 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKURAINWAY_LOCATION_NAME2"]; ?></h2>
         <br />
-		<div class="width100 allClear">
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-rainway-3.jpg');"></div>
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-rainway-4.jpg');"></div>
-        </div>
+		<img src="src/images/theme/themeRainway2.jpg" width="100%" />
 		<br />
-        <p class="is-size-4"><?php echo $language["TOHOKURAINWAY_LOCATION_TXT2"]; ?></p>
+        <p class="is-size-4 lineheight1-5"><?php echo $language["TOHOKURAINWAY_LOCATION_TXT2"]; ?></p>
         <br /><br />
     </section>
 
@@ -120,8 +114,8 @@
     </section>
 
 	<section id="tips" class="container is-widescreen">
-		<div><a href=""><img src="src/images/tips1.jpg" /></a></div>
-		<div><a href=""><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />

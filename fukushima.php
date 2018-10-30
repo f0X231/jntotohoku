@@ -145,15 +145,15 @@
 		<p class="is-size-4 has-text-centered"><?php echo $language["FUKUSHIMA_LOCATION_DETAIL"]; ?></p>
 		<br />
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="akita.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href="aomori.php" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="aomori.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="akita.php" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="fukushima.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href="iwate.php" target="_blank"><img src="src/images/local_snow_monster.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="iwate.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="miyagi.php" target="_blank"><img src="src/images/local_snow_monster.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="miyagi.php" target="_blank"><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one"><a href="yamagata.php" target="_blank"><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
 			<div class="column marpad-bottom-one">&nbsp;</div>
 		</div>
 		<br />
@@ -161,8 +161,8 @@
 		<br />
 	</section>
 	<section id="tips" class="container is-widescreen">
-		<div><a href=""><img src="src/images/tips1.jpg" /></a></div>
-		<div><a href=""><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />

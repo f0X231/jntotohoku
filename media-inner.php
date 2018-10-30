@@ -64,7 +64,7 @@
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKUART_INFO"]; ?></p>
     </section>
 
-	<section id="artist" class="container is-widescreen bgMainDanPattie" style="margin-top:-3%;">
+	<section id="artist" class="container is-widescreen bgMainDanPattie" style="margin-top:-25px;">
 		<div class="has-text-centered">
 			<img src="src/images/pic-dan-pat.png" />
 		</div>
@@ -114,35 +114,41 @@
 			(อาโอโมริ อะคิตะ อิวาเตะ) เป็น 6 คลิปต่อไปนี้<br />
 			ขอเชิญชมและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ
 		</p>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_art_of_aomori.jpg');" onclick="window.open('aomori.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-arts.php"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_food_of_aomori.jpg');" onclick="window.open('aomori.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-food.php"><img src="src/images/local_food_of_aomori.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_railway_of_akita.jpg');" onclick="window.open('akita.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-railway.php"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_culture_of_akita.jpg');"  onclick="window.open('akita.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-hot-spring.php"><img src="src/images/local_culture_of_akita.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_nature_of_iwate.jpg');"  onclick="window.open('iwate.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-nature.php"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
-		<div class="is-fullwidth location-vdo" style="height:220px;cursor:pointer;background-image:url('src/images/local_cultural_of_iwate.jpg');"  onclick="window.open('iwate.php');">
-			<div class="vdo-youtube">
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-special.php"><img src="src/images/local_cultural_of_iwate.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div-->
 		</div>
 		<br />
 	</section>

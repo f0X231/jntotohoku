@@ -76,7 +76,7 @@
     </section>
     
 
-    <section id="artist-vdo" class="container is-widescreen bgsnow">
+    <section id="food-vdo" class="container is-widescreen bgsnow">
 		<h2 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKUFOOD_YOUTUBE"]; ?></h2>
 		<br />
 		<div class="video-container">
@@ -86,16 +86,13 @@
 	</section>
 
 
-	<section id="location-arts" class="container is-widescreen">
+	<section id="food-location-1" class="container is-widescreen">
         <h2 class="is-size-3 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKUFOOD_LOCATION"]; ?></h2>
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKUFOOD_LOCATION_NAME"]; ?></p>
-        <br />
-		<div class="width100 allClear">
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-food-1.jpg');"></div>
-            <div class="float-left width50 theme-img" style="background-image: url('./src/images/theme/theme-food-2.jpg');"></div>
-        </div>
 		<br />
-        <p class="is-size-4"><?php echo $language["TOHOKUFOOD_LOCATION_TXT1"]; ?></p>
+		<img src="src/images/theme/themeFood1.jpg" width="100%" />
+		<br />
+        <p class="is-size-4 lineheight1-5"><?php echo $language["TOHOKUFOOD_LOCATION_TXT1"]; ?></p>
 		<br /><br />
     </section>
 
@@ -109,8 +106,8 @@
     </section>
 
 	<section id="tips" class="container is-widescreen">
-		<div><a href=""><img src="src/images/tips1.jpg" /></a></div>
-		<div><a href=""><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />
@@ -119,9 +116,7 @@
 	<section id="gobackhome" class="container is-widescreen">
 		<br />
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
-			<a href="tohoku.php">
-				<u class="has-text-black">Go To Tohoku Page</u>
-			</a>
+			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
 		<br />
 	</section>

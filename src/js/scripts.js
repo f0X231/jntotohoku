@@ -321,29 +321,29 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-ARTS") {
         var LocsA = [
             {
-                lat: 38.570639,
+                lat: 38.571639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'หอศิลป์โทวาดะ',
+                html: '<h3>หอศิลป์โทวาดะ</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             },
             {
                 lat: 38.570539,
-                lon: 140.530568,
+                lon: 140.531568,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'ศาลเจ้าโทวาดะ',
+                html: '<h3>ศาลเจ้าโทวาดะ</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             },
             {
-                lat: 38.570679,
-                lon: 140.530568,
+                lat: 38.571679,
+                lon: 140.531568,
                 zoom: 14,
-                title: 'Title B1',
-                html: '<h3>Content B1</h3>',
+                title: 'ทะเลสาบโทวาดะ',
+                html: '<h3>ทะเลสาบโทวาดะ</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -356,8 +356,8 @@ jQuery(document).ready(function() {
                 lat: 38.570639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'คะคุโนะดาเตะ (รถลากจินริคิฉะ และกิโมโน)',
+                html: '<h3>คะคุโนะดาเตะ (รถลากจินริคิฉะ และกิโมโน)</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -370,8 +370,8 @@ jQuery(document).ready(function() {
                 lat: 38.570639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'วังโคะโซบะ',
+                html: '<h3>วังโคะโซบะ</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -384,8 +384,8 @@ jQuery(document).ready(function() {
                 lat: 38.570639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'ตลาดฮัชโชคุเซ็นเตอร์',
+                html: '<h3>ตลาดฮัชโชคุเซ็นเตอร์</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -398,8 +398,8 @@ jQuery(document).ready(function() {
                 lat: 38.570639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'เกบิเค',
+                html: '<h3>เกบิเค</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -412,8 +412,8 @@ jQuery(document).ready(function() {
                 lat: 38.570639,
                 lon: 140.530468,
                 zoom: 14,
-                title: 'Title A1',
-                html: '<h3>Content A1</h3>',
+                title: 'นิวโตออนเซ็น',
+                html: '<h3>นิวโตออนเซ็น</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             },
@@ -421,8 +421,8 @@ jQuery(document).ready(function() {
                 lat: 38.570539,
                 lon: 140.530268,
                 zoom: 14,
-                title: 'Title B1',
-                html: '<h3>Content B1</h3>',
+                title: 'หม้อไฟคิริทัมปะ',
+                html: '<h3>หม้อไฟคิริทัมปะ</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
