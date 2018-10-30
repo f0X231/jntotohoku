@@ -64,8 +64,8 @@
 		</div>
 		<div class="owl-carousel owl-theme">
 			<div class="item"><a href="tohoku.php"><img src="src/images/banner/banner_tohoku_landing.jpg" alt=""></a></div>
-			<div class="item"><a href="akita.php"><img src="src/images/banner/hero_banner_akita.jpg" alt=""></a></div>
 			<div class="item"><a href="aomori.php"><img src="src/images/banner/hero_banner_aomori.jpg" alt=""></a></div>
+			<div class="item"><a href="akita.php"><img src="src/images/banner/hero_banner_akita.jpg" alt=""></a></div>
 			<div class="item"><a href="fukushima.php"><img src="src/images/banner/hero_banner_fukushima.jpg" alt=""></a></div>
 			<div class="item"><a href="iwate.php"><img src="src/images/banner/hero_banner_iwate.jpg" alt=""></a></div>
 			<div class="item"><a href="miyagi.php"><img src="src/images/banner/hero_banner_miyagi.jpg" alt=""></a></div>

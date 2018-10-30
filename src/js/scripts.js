@@ -44,8 +44,10 @@ function bigbannerLazyLoad() {
     $(".owl-carousel").owlCarousel({
         items:1,
         lazyLoad:true,
-        loop:false,
-        autoplay:false
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true
     });
 }
 
