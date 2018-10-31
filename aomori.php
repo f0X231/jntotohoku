@@ -171,7 +171,7 @@
 
 	<section id="tips" class="container is-widescreen">
 		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
-		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="bag.html" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />
@@ -183,6 +183,9 @@
 		</div>
 		<br />
 	</section>
+	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-788681111"></script> 
+	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-788681111'); </script> 
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>

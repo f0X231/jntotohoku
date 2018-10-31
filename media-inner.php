@@ -87,32 +87,33 @@
 				</div>
 			</div>
 			<div class="column is-size-4">
-				<p>นักร้อง, นัแแสดงม</p>
+				<p>นักร้อง, นักแสดง</p>
 				<p>บล็อกเกอร์ที่มีชื่อเสียงคนหนึ่งของประเทศไทย</p>
 			</div>
 		</div>
 		<p class="is-size-4 has-text-centered">
-			ธีมของการท่องเที่ยวโทโฮคุ<br />
-			แดนและแพ็ตตี้ เยียมชมโทโฮคุ และได้สัมผัสกับเสน่ห์ของโทโฮคุอย่างแท้จริง<br />
-			แดนเป็นผู้สรุปสถานที่น่าสนใจของโทโฮคุ เป็นคลิปวีดีโอ 6 ตอนต่อไปนี้<br />
-			อาหาร ศิลปะ การขนส่งผู้โดยสารหลายรูปแบบ SIT (Special Interest Tour) น้ำพุร้อน ธรรมชาติ
+			"แดน วรเวช" และ "แพทตี้ อังศุมาลิน" เดินทางเที่ยวภูมิภาค โทโฮคุ ญี่ปุ่น (Tohoku)<br class="is-hidden-mobile" />
+			พวกเขาได้สัมผัสกับเสน่ห์หลากหลายของที่นี่<br class="is-hidden-mobile" />
+			โดย "แดน" เป็นผู้สรุปสถานที่รวมทั้งกิจกรรมที่น่าสนใจของโทโฮคุเป็นคลิปวีดีโอ 6 หัวข้อ ดังต่อไปนี้<br />
+			* ฟินกับอาหารทะเลสดๆ *  ดื่มด่ำกับผลงานศิลปะ * สนุกไปกับการเดินทางหลากสไตล์ *  <br />
+			ผ่อนคลายกับการแช่น้ำพุร้อน * เพลินกับกิจกรรมต่างๆที่น่าสนใจ * ตื่นตาตื่นใจกับธรรมชาติตระการตา *
 		</p>
 		<br /><br />
 	</section>
 
 	<section id="artist-vdo" class="container is-widescreen bgsnow">
-		<h2 class="is-size-4 has-text-weight-bold has-text-centered">คลิปการเดินทางท่องเที่ยว โทโฮคุ ของแดนและแพ็ตตี้</h2>
+		<h2 class="is-size-4 has-text-weight-bold has-text-centered">คลิปบันทึกการเดินทางเที่ยวภูมิภาคโทโฮคุ ของ "แดน & แพทตี้"</h2>
 		<p class="is-size-5 has-text-centered">จะทำให้คุณรู้สึกราวกับว่ากำลังเดินทางอยู่ที่โทโฮคุ</p>
 		<br />
 		<div class="video-container">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
+			<iframe width="853" height="480" src="https://www.youtube.com/embed/kM3A_LjRbkE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br />
 		<br />
 	</section>
 
 	<section id="googleMaps" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold has-text-centered">เส้นทางของการเดินทางของแดนและแพ็ตตี้</h1>
+		<h1 class="is-size-2 has-text-weight-bold has-text-centered">เส้นทางการเดินทางของ "แดน & แพทตี้"</h1>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
 		<br />
 		<div id="gmap" style="width: 100%;"></div>
@@ -121,16 +122,11 @@
 	</section>
 
 	<section id="location" class="container is-widescreen">
-		<p class="is-size-4 has-text-centered">แดนและแพ็ตตี้ ได้รวบรวมเสน่ห์ต่าง ๆ ที่ได้สัมผัสจริงในโทโฮคุ<br />
-			(อาโอโมริ อะคิตะ อิวาเตะ) เป็น 6 คลิปต่อไปนี้<br />
-			ขอเชิญชมและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ
+		<p class="is-size-4 has-text-centered">"แดน & แพทตี้" รวบรวมเสน่ห์ต่าง ๆ ที่เขาและเธอได้สัมผัสจริงจากการเดินทางเที่ยวภูมิภาคโทโฮคุ<br />
+			(จังหวัดอาโอโมริ Aomori, จังหวัดอะคิตะ Akita, และจังหวัดอิวาเตะ Iwate)<br />
+			เป็นวีดีโอ 6 คลิป 6 หัวข้อ เชิญคลิกดูและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ!
 		</p>
-		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-arts.php" target="_blank"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
-		</div>
+		<br />
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-food.php" target="_blank"><img src="src/images/local_food_of_aomori.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
@@ -138,7 +134,7 @@
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-railway.php" target="_blank"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
+			<a href="tohoku-arts.php" target="_blank"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
@@ -150,7 +146,7 @@
 			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
-			<a href="tohoku-nature.php" target="_blank"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
+			<a href="tohoku-railway.php" target="_blank"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
 			<!--div class="vdo-youtube">
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
@@ -161,12 +157,18 @@
 				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 			</div-->
 		</div>
+		<div class="is-fullwidth location-vdo">
+			<a href="tohoku-nature.php" target="_blank"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
+			<!--div class="vdo-youtube">
+				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
+			</div-->
+		</div>
 		<br />
 	</section>
 	
 	<section id="gallery" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold has-text-centered">แกลเลอรี่ของแดนและแพ็ตตี้</h1>
-		<p class="is-size-4 has-text-centered">ชมภาพถ่ายเบื้องหลังระหว่างการเดินทางอันเพลิดเพลินของ แดนและแพ็ตตี้</p>
+		<h1 class="is-size-2 has-text-weight-bold has-text-centered">อัลบั้มภาพต่างๆ ของ "แดน & แพทตี้"</h1>
+		<p class="is-size-4 has-text-centered">ชมภาพถ่ายเบื้องหลังระหว่างที่พวกเขาสนุกไปกับการเดินทางเที่ยวภูมิภาคโทโฮคุ ญี่ปุ่น</p>
 		<br />
 		<div class="columns">
 			<div class="column">
@@ -210,8 +212,8 @@
 	
 	
 	<section id="tips" class="container is-widescreen">
-		<div><a href="media-inner.php"><img src="src/images/tips1.jpg" /></a></div>
-		<div><a href=""><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="tohoku.php"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="bag.html"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />
@@ -224,7 +226,9 @@
 		</div>
 		<br />
 	</section>
-	
+	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-788681111"></script> 
+	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-788681111'); </script> 
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>
