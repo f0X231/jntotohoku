@@ -113,8 +113,8 @@
 		<br />
 	</section>
 	<section id="gallery" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold has-text-centered">แกลเลอรี่</h1>
-		<p class="is-size-4 has-text-centered">ภาพถ่ายเพิ่มเติมรอบกนซังออนเซ็น</p>
+		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["HEADER_GALLERY"]; ?></h1>
+		<p class="is-size-4 has-text-centered"><?php echo $language["AKITA_GALLERY_INFO"]; ?></p>
 		<br />
 		<div>
 			<ul id="image-gallery" class="gallery list-unstyled cS-hidden">

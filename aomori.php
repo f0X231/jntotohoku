@@ -80,7 +80,7 @@
 			<div class="is-pulled-left width10"><img src="src/images/icon_website.png" /></div>
 			<div class="is-pulled-left width90">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_WEBSITE"]; ?></label>
-				<p><?php echo $language["AOMORI_INFO_TITLE"]; ?></p>
+				<p><?php echo $language["AOMORI_WEBSITE_LINK"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -150,7 +150,7 @@
 	<section id="location" class="container is-widescreen bgInsprise">
 		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["AOMORI_LOCATION_TITLE"]; ?></h1>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
-		<p class="is-size-4 has-text-centered"><?php echo $language["AOMORI_LOCATION_TITLE"]; ?></p>
+		<p class="is-size-4 has-text-centered"><?php echo $language["AOMORI_LOCATION_DETAIL"]; ?></p>
 		<br />
 		<div class="columns marpad-bottom-one">
 		<div class="column marpad-bottom-one"><a href="akita.php" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
