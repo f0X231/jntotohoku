@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	// include language configuration file based on selected language
 	$lang = "th";
 	if(isset($_GET['lang'])){ 
@@ -31,6 +31,20 @@
 	<meta name="twitter:title" content="<?php echo $language["AKITA_META_TITLE"]; ?>">
 	<meta name="twitter:description" content="<?php echo $language["AKITA_META_DESCRIPTION"]; ?>">
 	<meta name="twitter:image" content="<?php echo $language["AKITA_META_IMAGE"]; ?>">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="src/images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="src/images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="src/images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="src/images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="src/images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="src/images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="src/images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="src/images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="src/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="src/images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
 
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
@@ -169,7 +183,7 @@
 		<br />
 	</section>
 	<section id="tips" class="container is-widescreen">
-		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips3.jpg" /></a></div>
 		<div><a href="bag.html" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -180,6 +194,11 @@
 		<div class="is-size-3 has-text-weight-bold has-text-centered">
 			<a href="tohoku.php"><u class="has-text-black">Go To Tohoku Page</u></a>
 		</div>
+		<br />
+	</section>
+	<footer id="footer" class="container is-widescreen">
+		<br />
+		<div class="is-size-6 has-text-centered">🄫 PIXTA Inc<br />© JNTO</div>
 		<br />
 	</section>
 	

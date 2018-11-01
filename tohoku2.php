@@ -31,20 +31,6 @@
 	<meta name="twitter:description" content="<?php echo $language["TOHOKU_META_DESCRIPTION"]; ?>">
 	<meta name="twitter:image" content="<?php echo $language["TOHOKU_META_IMAGE"]; ?>">
 
-	<link rel="apple-touch-icon" sizes="57x57" href="src/images/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="src/images/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="src/images/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="src/images/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="src/images/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="src/images/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="src/images/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="src/images/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="src/images/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="src/images/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
-
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=@VERSION">
@@ -80,10 +66,10 @@
 			<div class="item"><a href="tohoku.php"><img src="src/images/banner/banner_tohoku_landing.jpg" alt=""></a></div>
 			<div class="item"><a href="aomori.php"><img src="src/images/banner/hero_banner_aomori.jpg" alt=""></a></div>
 			<div class="item"><a href="akita.php"><img src="src/images/banner/hero_banner_akita.jpg" alt=""></a></div>
+			<div class="item"><a href="fukushima.php"><img src="src/images/banner/hero_banner_fukushima.jpg" alt=""></a></div>
 			<div class="item"><a href="iwate.php"><img src="src/images/banner/hero_banner_iwate.jpg" alt=""></a></div>
 			<div class="item"><a href="miyagi.php"><img src="src/images/banner/hero_banner_miyagi.jpg" alt=""></a></div>
 			<div class="item"><a href="yamagata.php"><img src="src/images/banner/hero_banner_yamagata.jpg" alt=""></a></div>
-			<div class="item"><a href="fukushima.php"><img src="src/images/banner/hero_banner_fukushima.jpg" alt=""></a></div>
 		</div>
 		<br /><br />
 	</section>
@@ -126,30 +112,18 @@
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
 		<br />
 		<div class="video-container">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/kM3A_LjRbkE" frameborder="0" allowfullscreen></iframe>
+			<iframe width="853" height="480" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br />
 	</section>
 
-	
-
 	<section id="tips" class="container is-widescreen">
-		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips3.jpg" /></a></div>
-		<div><a href="bag.html" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
 		<br />
 	</section>
-
-	<footer id="footer" class="container is-widescreen">
-		<br />
-		<div class="is-size-6 has-text-centered">🄫 Towada lake national park association<br />© 2004-2017 IWATE HOTEL & RESORT INC.<br />© Miyagi Inbound DMO Association<br />🄫 PIXTA Inc.<br />© JNTO</div>
-		<br />
-	</section>
-	
-	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-788681111"></script> 
-	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-788681111'); </script> 
 	
 	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $language["GMAPKPI"]; ?>&amp;v=3.22&amp;sensor=false"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js?v=@VERSION"></script>

@@ -98,7 +98,7 @@ function getCurrentURLPageName() {
     var page = path.split("/").pop();
     var ext = page.split(".").pop();
         
-    return page.replace("." + ext, "").toUpperCase();;
+    return page.replace("." + ext, "").toUpperCase();
 }
 
 function getAllUrlParams(url) {
@@ -258,8 +258,8 @@ jQuery(document).ready(function() {
     if(cName == "MEDIA-INNER") {
         var LocsA = [
             {
-                lat: 38.570639, 
-                lon: 140.530468,
+                lat: 39.751889, 
+                lon: 140.650419,
                 zoom: 14,
                 title: 'AKITA อะคิตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">AKITA อะคิตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
@@ -276,38 +276,11 @@ jQuery(document).ready(function() {
                 animation: google.maps.Animation.DROP
             },
             {
-                lat: 37.350761, 
-                lon: 139.314857,
-                zoom: 14,
-                title: 'FUKUSHIMA ฟุคุชิมะ',
-                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">FUKUSHIMA ฟุคุชิมะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
-                icon: './src/images/maker_yamagata.png',
-                animation: google.maps.Animation.DROP
-            },
-            {
                 lat: 40.002681, 
                 lon: 140.970314,
                 zoom: 14,
                 title: 'IWATE อิวะเตะ',
                 html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">IWATE อิวะเตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
-                icon: './src/images/maker_yamagata.png',
-                animation: google.maps.Animation.DROP
-            },
-            {
-                lat: 38.135395,
-                lon: 140.494937,
-                zoom: 14,
-                title: 'MIYAGI มิยางิ',
-                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">MIYAGI มิยางิ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
-                icon: './src/images/maker_yamagata.png',
-                animation: google.maps.Animation.DROP
-            },
-            {
-                lat: 38.570639, 
-                lon: 140.530468,
-                zoom: 14,
-                title: 'YAMAGATA ยามากาตะ',
-                html: '<h1 class="is-size-5 fontDBOzone has-text-weight-bold has-text-centered">YAMAGATA ยามากาตะ</h1><p class="is-size-6 fontDBOzone has-text-centered"><a href="#" target="_blank">อ่านรายละเอียดเพิ่มเติม</a></p/>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -323,29 +296,29 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-ARTS") {
         var LocsA = [
             {
-                lat: 38.571639,
-                lon: 140.530468,
+                lat: 40.614271, 
+                lon: 141.209203,
                 zoom: 14,
-                title: 'หอศิลป์โทวาดะ',
-                html: '<h3>หอศิลป์โทวาดะ</h3>',
+                title: 'Towada Art Center',
+                html: '<h3>Towada Art Center</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             },
             {
-                lat: 38.570539,
-                lon: 140.531568,
+                lat: 40.433229, 
+                lon: 140.892234,
                 zoom: 14,
-                title: 'ศาลเจ้าโทวาดะ',
-                html: '<h3>ศาลเจ้าโทวาดะ</h3>',
+                title: 'Towada Shrine',
+                html: '<h3>Towada Shrine</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             },
             {
-                lat: 38.571679,
-                lon: 140.531568,
+                lat: 40.426569, 
+                lon: 140.892394,
                 zoom: 14,
-                title: 'ทะเลสาบโทวาดะ',
-                html: '<h3>ทะเลสาบโทวาดะ</h3>',
+                title: 'Towada Lake',
+                html: '<h3>Towada Lake</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -355,8 +328,8 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-RAILWAY") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 39.592014, 
+                lon: 140.571122,
                 zoom: 14,
                 title: 'คะคุโนะดาเตะ (รถลากจินริคิฉะ และกิโมโน)',
                 html: '<h3>คะคุโนะดาเตะ (รถลากจินริคิฉะ และกิโมโน)</h3>',
@@ -369,11 +342,11 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-SPECIAL") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 39.395758,
+                lon: 141.110530,
                 zoom: 14,
-                title: 'วังโคะโซบะ',
-                html: '<h3>วังโคะโซบะ</h3>',
+                title: 'Hanamaki',
+                html: '<h3>Hanamaki</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -383,8 +356,8 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-FOOD") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 40.526949,
+                lon: 141.452698,
                 zoom: 14,
                 title: 'ตลาดฮัชโชคุเซ็นเตอร์',
                 html: '<h3>ตลาดฮัชโชคุเซ็นเตอร์</h3>',
@@ -397,11 +370,11 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-NATURE") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 38.989603,
+                lon: 141.255322,
                 zoom: 14,
-                title: 'เกบิเค',
-                html: '<h3>เกบิเค</h3>',
+                title: 'Geibikei',
+                html: '<h3>Geibikei</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }
@@ -411,20 +384,11 @@ jQuery(document).ready(function() {
     if(cName == "TOHOKU-HOT-SPRING") {
         var LocsA = [
             {
-                lat: 38.570639,
-                lon: 140.530468,
+                lat: 39.801555, 
+                lon: 140.794733,
                 zoom: 14,
-                title: 'นิวโตออนเซ็น',
-                html: '<h3>นิวโตออนเซ็น</h3>',
-                icon: './src/images/maker_yamagata.png',
-                animation: google.maps.Animation.DROP
-            },
-            {
-                lat: 38.570539,
-                lon: 140.530268,
-                zoom: 14,
-                title: 'หม้อไฟคิริทัมปะ',
-                html: '<h3>หม้อไฟคิริทัมปะ</h3>',
+                title: 'Nyuto Onsen',
+                html: '<h3>Nyuto Onsen</h3>',
                 icon: './src/images/maker_yamagata.png',
                 animation: google.maps.Animation.DROP
             }

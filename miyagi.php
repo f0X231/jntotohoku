@@ -32,6 +32,20 @@
 	<meta name="twitter:description" content="<?php echo $language["MIYAGI_META_DESCRIPTION"]; ?>">
 	<meta name="twitter:image" content="<?php echo $language["MIYAGI_META_IMAGE"]; ?>">
 
+	<link rel="apple-touch-icon" sizes="57x57" href="src/images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="src/images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="src/images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="src/images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="src/images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="src/images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="src/images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="src/images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="src/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="src/images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
+
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/lightslider.css?v=@VERSION">
@@ -169,7 +183,7 @@
 		<br />
 	</section>
 	<section id="tips" class="container is-widescreen">
-		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips1.jpg" /></a></div>
+		<div><a href="media-inner.php" target="_blank"><img src="src/images/tips3.jpg" /></a></div>
 		<div><a href="bag.html" target="_blank"><img src="src/images/tips2.jpg" /></a></div>
 		<br />
 		<hr class="has-text-grey-lighter" />
@@ -183,6 +197,13 @@
 		</div>
 		<br />
 	</section>
+
+	<footer id="footer" class="container is-widescreen">
+		<br />
+		<div class="is-size-6 has-text-centered">🄫Miyagi Inbound DMO Association<br />🄫JNTO</div>
+		<br />
+	</section>
+
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-788681111"></script> 
 	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-788681111'); </script> 

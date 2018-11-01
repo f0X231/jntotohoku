@@ -1,7 +1,7 @@
 <?php
 
 $language = array(
-			'GMAPKPI'					=> '',
+			'GMAPKPI'					=> 'AIzaSyBOSAWW2P50fy50NRDJd9uSKL6B99D-azs',
 
 			'HEADER_LOCATION'			=> 'ที่ตั้ง',
 			'HEADER_WEBSITE'			=> 'เว็บไซต์ทางการที่เกี่ยวข้อง',
@@ -94,7 +94,7 @@ $language = array(
 
 			'MIYAGI_INFO_TITLE'			=> 'ภูเขาซาโอะ จังหวัดมิยางิ',
 			'MIYAGI_INFO_DETAIL'		=> 'ภูเขาซะโอ (Mount Zao) <br class="is-hidden-tablet" />จังหวัดมิยางิ (Miyagi) <br />มีกิจกรรมมากมายตลอดทั้งปี เช่น การปีนเขาในฤดูร้อน <br class="is-hidden-mobile" />การชมใบไม้เปลี่ยนสีในฤดูใบไม้ร่วง และการเล่นสกี หรือสโนว์บอร์ดในช่วงฤดูหนาว<br class="is-hidden-mobile" />นอกจากนี้กิจกรรมในช่วงฤดูหนาวยังมีทัวร์ชม "ปีศาจหิมะ (Snow Monster)" <br class="is-hidden-mobile" />โดยผู้เชี่ยวชาญจะนำคุณสำรวจพื้นที่ที่เต็มไปด้วยปีศาจหิมะเหล่านี้<br /><br />ปีศาจหิมะเป็นปรากฏการณ์ทางธรรมชาติ ที่เกิดจากละอองน้ำแข็งเกาะกับใบของต้นสนจนเกิดรูปร่างแปลกตา<br />ช่วงเวลาที่ดีที่สุดในการชมปีศาจหิมะ คือ ตั้งแต่เดือนมกราคม จนถึงเดือนมีนาคมของทุกปี',
-			'MIYAGI_WEBSITE_LINK'		=> 'การท่องเที่ยวจังหวัดมิยางิ (ภาษาอังกฤษ) : <br /><a href="http://japan.miyagi-kankou.or.jp.e.afh.hp.transer.com/about" target="_blank" class="has-text-black">http://japan.miyagi-kankou.or.jp.e.afh.hp.transer.com/about</a><br /><br />ศูนย์ข้อมูลท่องเที่ยวเมืองซาโอะ: <br /><a href="www.town.zao.miyagi.jp/kankou/pamphlet/english_pamphlet.pdf" target="_blank" class="has-text-black">www.town.zao.miyagi.jp/kankou/pamphlet/english_pamphlet.pdf</a>',
+			'MIYAGI_WEBSITE_LINK'		=> 'การท่องเที่ยวจังหวัดมิยางิ (ภาษาอังกฤษ) : <br /><a href="http://japan.miyagi-kankou.or.jp.e.afh.hp.transer.com/about" target="_blank" class="has-text-black">http://japan.miyagi-kankou.or.jp.e.afh.hp.transer.com/about</a><br /><br />ศูนย์ข้อมูลท่องเที่ยวเมืองซาโอะ: <br /><a href="http://www.town.zao.miyagi.jp/kankou/pamphlet/english_pamphlet.pdf" target="_blank" class="has-text-black">www.town.zao.miyagi.jp/kankou/pamphlet/english_pamphlet.pdf</a>',
 			'MIYAGI_WAY_DETAIL'			=> 'จากสถานีรถไฟ JR เซนได (Sendai Station) มีรถประจำทางให้บริการไปยังสุมิคะวะ สโนว์พาร์ค (Sumikawa Snow Park)  ใช้เวลาเดินทางประมาณ 60 นาที',
 			'MIYAGI_ADDR_DETAIL'		=> 'Togatsuta Onsen, Zao-machi, Katta-gun, Miyagi Prefecture 989-0916',
 			'MIYAGI_GPS_DETAIL'			=> '<a href="https://www.google.com/maps?saddr=My+Location&daddr=38.135395,140.494937" target="_blank" class="has-text-black">38.135395, 140.494937</a>',
@@ -111,7 +111,7 @@ $language = array(
 
 			'YAMAGATA_INFO_TITLE'		=> 'กินซังออนเซ็น จังหวัดยามางาตะ',
 			'YAMAGATA_INFO_DETAIL'		=> 'กินซังอนเซ็น (Ginzan Onsen) <br class="is-hidden-tablet" />จังหวัดยะมะงะตะ (Yamagata) <br />เป็นเมืองน้ำพุร้อนอันเงียบสงบที่ตั้งอยู่ท่ามกลางขุนเขาในจังหวัดยะมะงะตะ <br class="is-hidden-mobile" />แต่เดิมพื้นที่นี้ถูกสร้างขึ้นรอบๆ เหมืองเงิน ทว่าทุกวันนี้กลายมาเป็นที่รู้จักในฐานะ<br class="is-hidden-mobile" />เมืองน้ำพุร้อนที่สวยที่สุดแห่งหนึ่งของญี่ปุ่น ซึ่งเรียงรายไปด้วยโรงแรมเรียวกังเก่าแก่ตามริมฝั่งแม่น้ำ<br /><br />โรงแรมเรียวกังแบบดั้งเดิมของกินซังออนเซ็น เป็นอาคารไม้สามและสี่ชั้นที่สวยงาม  ทำให้รู้สึกเหมือนได้ย้อนเวลากลับไปในสมัยโบราณของญี่ปุ่น<br />สามารถเพลิดเพลินกับการสวมยูกาตะเดินชมเมือง ยามค่ำคืนทั่วทั้งเมืองจะเป็นประกายสีเหลืองทองด้วยโคมไฟแก๊ส ให้บรรยากาศสุดแสนโรแมนติก',
-			'YAMAGATA_WEBSITE_LINK'		=> 'เว็บไซต์ทางการที่เกี่ยวข้อง JNTO (ภาษาอังกฤษ) : <br /><a href="www.japan.travel/en/spot/1798" target="_blank" class="has-text-black">www.japan.travel/en/spot/1798</a><br /><br />ศูนย์ข้อมูลท่องเที่ยวจังหวัดยะมะงะตะ : <br /><a href="http://data.yamagatakanko.com/english/sightseeing/ginzanonsen.html" target="_blank" class="has-text-black">http://data.yamagatakanko.com/english/sightseeing/ginzanonsen.html</a>',
+			'YAMAGATA_WEBSITE_LINK'		=> 'เว็บไซต์ทางการที่เกี่ยวข้อง JNTO (ภาษาอังกฤษ) : <br /><a href="http://www.japan.travel/en/spot/1798" target="_blank" class="has-text-black">www.japan.travel/en/spot/1798</a><br /><br />ศูนย์ข้อมูลท่องเที่ยวจังหวัดยะมะงะตะ : <br /><a href="http://data.yamagatakanko.com/english/sightseeing/ginzanonsen.html" target="_blank" class="has-text-black">http://data.yamagatakanko.com/english/sightseeing/ginzanonsen.html</a>',
 			'YAMAGATA_WAY_DETAIL'		=> 'จากสถานีรถไฟ JR โออิชิดะ (Oishida Station) มีรถประจำทางให้บริการไปยังกินซังอนเซ็น ใช้เวลาเดินทาง 35 นาที<br /><br />เช่ารถขับ<br />หารถเช่าได้ที่สถานียะมะงะตะ (Yamagata Station) สถานีมูรายามะ ( Murayama Station) สถานีชินโจ (Shinjo Station) หรือสนามบินยะมะงะตะ (Yamagata  Airport)',
 			'YAMAGATA_ADDR_DETAIL'		=> 'Ginzanshinhata, Obanazawa-shi, Yamagata Prefecture 999-4333, Japan',
 			'YAMAGATA_GPS_DETAIL'		=> '<a href="https://www.google.com/maps?saddr=My+Location&daddr=38.570639,140.530468" target="_blank" class="has-text-black">38.570639, 140.530468</a>',
