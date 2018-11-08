@@ -121,8 +121,8 @@
 	</section>
 
 	<section id="artist-vdo" class="container is-widescreen bgsnow">
-		<h2 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKU_YOUTUBE"]; ?></h2>
-		<p class="is-size-5 has-text-centered"><?php echo $language["TOHOKU_YOUTUBE_INFO"]; ?></p>
+		<h2 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKU_YOUTUBE"]; ?></h2>
+		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKU_YOUTUBE_INFO"]; ?></p>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
 		<br />
 		<div class="video-container">
@@ -145,6 +145,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 Towada lake national park association<br />© 2004-2017 IWATE HOTEL & RESORT INC.<br />© Miyagi Inbound DMO Association<br />🄫 PIXTA Inc.<br />© JNTO</div>
 		<br />
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 	
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>

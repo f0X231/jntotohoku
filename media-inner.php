@@ -101,8 +101,8 @@
 				</div>
 			</div>
 			<div class="column is-size-4">
-				<p>นักร้อง, นักแสดง</p>
-				<p>บล็อกเกอร์ที่มีชื่อเสียงคนหนึ่งของประเทศไทย</p>
+				<p>แดนเป็นนักแสดง / นักร้อง และแพ๊ตตี้ เป็นนักแสดงในละครทีวี</p>
+				<p>ตอนนี้พวกเขาเป็นหนึ่งในคู่รักที่มีชื่อเสียงในมืองไทย</p>
 			</div>
 		</div>
 		<p class="is-size-4 has-text-centered">
@@ -136,6 +136,7 @@
 	</section>
 
 	<section id="location" class="container is-widescreen">
+	<h1 class="is-size-2 has-text-weight-bold has-text-centered">6 คลิปสุดพิเศษ จาก แดน & แพตตี้</h1>
 		<p class="is-size-4 has-text-centered">"แดน & แพทตี้" รวบรวมเสน่ห์ต่าง ๆ ที่เขาและเธอได้สัมผัสจริงจากการเดินทางเที่ยวภูมิภาคโทโฮคุ<br />
 			(จังหวัดอาโอโมริ Aomori, จังหวัดอะคิตะ Akita, และจังหวัดอิวาเตะ Iwate)<br />
 			เป็นวีดีโอ 6 คลิป 6 หัวข้อ เชิญคลิกดูและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ!
@@ -186,37 +187,37 @@
 		<br />
 		<div class="columns">
 			<div class="column">
-				<a href="src/images/gallery/akita2.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/akita2.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/main01.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main01.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 			<div class="column">
-				<a href="src/images/gallery/aomori3.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/aomori3.jpg" class="is-fullwidth" />
-				</a>
-			</div>
-		</div>
-		<div class="columns">
-			<div class="column">
-				<a href="src/images/gallery/fukushima3.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/fukushima3.jpg" class="is-fullwidth" />
-				</a>
-			</div>
-			<div class="column">
-				<a href="src/images/gallery/iwate1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/iwate1.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/main02.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main02.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 		</div>
 		<div class="columns">
 			<div class="column">
-				<a href="src/images/gallery/iwate2.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/iwate2.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/main03.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main03.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 			<div class="column">
-				<a href="src/images/gallery/miyagi3.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="src/images/gallery/miyagi3.jpg" class="is-fullwidth" />
+				<a href="src/images/gallery/main04.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main04.jpg" class="is-fullwidth" />
+				</a>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<a href="src/images/gallery/main05.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main05.jpg" class="is-fullwidth" />
+				</a>
+			</div>
+			<div class="column">
+				<a href="src/images/gallery/main06.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="src/images/gallery/main06.jpg" class="is-fullwidth" />
 				</a>
 			</div>
 		</div>
@@ -245,8 +246,10 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫JNTO</div>
 		<br />
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 
+	
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-788681111"></script> 
 	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-788681111'); </script> 

@@ -201,6 +201,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 Towada lake national park association<br />© JNTO</div>
 		<br />
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 
 

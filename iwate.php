@@ -49,16 +49,16 @@
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/lightslider.css?v=@VERSION">
-	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=@VERSION">
+	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=231">
 </head>
 
 <body>
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width200 has-text-centered bg-dark-gray">
-				<img src="src/images/icon_banner_logo.png" />
+			<div class="is-pulled-left width-80">
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
-			<div class="is-pulled-left width-200 has-text-right bg-gray">
+			<div class="is-pulled-left width80px has-text-right">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
@@ -201,6 +201,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">© 2004-2017 IWATE HOTEL & RESORT INC.<br />© JNTO</div>
 		<br />
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>

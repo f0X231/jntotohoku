@@ -200,6 +200,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 PIXTA Inc<br />© JNTO</div>
 		<br />
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 	
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
