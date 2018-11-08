@@ -49,16 +49,16 @@
 	<link rel="stylesheet" type="text/css" href="src/css/owl.carousel.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/owl.theme.default.css?v=@VERSION">
 	<link rel="stylesheet" type="text/css" href="src/css/lightslider.css?v=@VERSION">
-	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=231">
+	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=320">
 </head>
 
 <body>
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width-80">
+			<div class="is-pulled-left width-175">
 				<img src="src/images/icon_banner_logo2.png" />
 			</div>
-			<div class="is-pulled-left width80px has-text-right">
+			<div class="is-pulled-left width175 has-text-right">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
@@ -70,11 +70,6 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<!--dt class="is-inline-block">
-						<a href="#" target="_blank">
-							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
-						</a>
-					</dt-->
 				</dl>
 			</div>
 		</div>
@@ -91,34 +86,34 @@
 		<br />
 		<br />
 		<div class="info-table is-size-4 allClear">
-			<div class="is-pulled-left width10"><img src="src/images/icon_website.png" /></div>
-			<div class="is-pulled-left width90">
+			<div class="is-pulled-left width15 has-text-centered"><img src="src/images/icon_website.png" /></div>
+			<div class="is-pulled-left width85">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_WEBSITE"]; ?></label>
-				<p><?php echo $language["IWATE_WEBSITE_LINK"]; ?></p>
+				<p class="breakSentence"><?php echo $language["IWATE_WEBSITE_LINK"]; ?></p>
 			</div>
 		</div>
 		<br />
 		<div class="info-table is-size-4 allClear">
-			<div class="is-pulled-left width10"><img src="src/images/icon_info.png"></div>
-			<div class="is-pulled-left width90">
+			<div class="is-pulled-left width15 has-text-centered"><img src="src/images/icon_info.png"></div>
+			<div class="is-pulled-left width85">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_WAY"]; ?></label>
-				<p><?php echo $language["IWATE_WAY_DETAIL"]; ?></p>
+				<p class="breakSentence"><?php echo $language["IWATE_WAY_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
 		<div class="info-table is-size-4 allClear">
-			<div class="is-pulled-left width10"><img src="src/images/icon_addr.png" /></div>
-			<div class="is-pulled-left width90">
+			<div class="is-pulled-left width15 has-text-centered"><img src="src/images/icon_addr.png" /></div>
+			<div class="is-pulled-left width85">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_ADDR"]; ?></label>
-				<p><?php echo $language["IWATE_ADDR_DETAIL"]; ?></p>
+				<p class="breakSentence"><?php echo $language["IWATE_ADDR_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
 		<div class="info-table is-size-4 allClear">
-			<div class="is-pulled-left width10"><img src="src/images/icon_gps.png" /></div>
-			<div class="is-pulled-left width90">
+			<div class="is-pulled-left width15 has-text-centered"><img src="src/images/icon_gps.png" /></div>
+			<div class="is-pulled-left width85">
 				<label class="has-text-weight-bold"><?php echo $language["HEADER_GPS"]; ?></label>
-				<p><?php echo $language["IWATE_GPS_DETAIL"]; ?></p>
+				<p class="breakSentence"><?php echo $language["IWATE_GPS_DETAIL"]; ?></p>
 			</div>
 		</div>
 		<br />
@@ -200,6 +195,11 @@
 	<footer id="footer" class="container is-widescreen">
 		<br />
 		<div class="is-size-6 has-text-centered">© 2004-2017 IWATE HOTEL & RESORT INC.<br />© JNTO</div>
+		<br />
+		<div class="has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>&nbsp;&nbsp;
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
 		<br />
 		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>

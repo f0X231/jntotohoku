@@ -54,11 +54,11 @@
 <body>	
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width150 has-text-centered bg-dark-gray">
-				<img src="src/images/icon_tohoku.png" />
+			<div class="is-pulled-left width390 has-text-centered">
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
-			<div class="is-pulled-left width-370 has-text-right bg-gray">
-				<dl class="herobanner-bar-social">
+			<div class="is-pulled-left width-370 has-text-right">
+				<dl class="herobanner-bar-social is-hidden-mobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -69,15 +69,10 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<!--dt class="is-inline-block">
-						<a href="#" target="_blank">
-							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
-						</a>
-					</dt-->
-				</dl>
+				</dl>&nbsp;
 			</div>
-			<div class="is-pulled-left width120 has-text-centered bg-black-gray">
-				<img src="src/images/icon_banner_logo.png" />
+			<div class="is-pulled-left width105 has-text-centered">
+				<img src="src/images/icon_tohoku.png" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
@@ -116,8 +111,8 @@
 	</section>
 
 	<section id="artist-vdo" class="container is-widescreen bgsnow">
-		<h2 class="is-size-4 has-text-weight-bold has-text-centered">คลิปบันทึกการเดินทางเที่ยวภูมิภาคโทโฮคุ ของ "แดน & แพทตี้"</h2>
-		<p class="is-size-5 has-text-centered">จะทำให้คุณรู้สึกราวกับว่ากำลังเดินทางอยู่ที่โทโฮคุ</p>
+		<h2 class="is-size-2 has-text-weight-bold has-text-centered">คลิปบันทึกการเดินทางเที่ยวภูมิภาคโทโฮคุ ของ "แดน & แพทตี้"</h2>
+		<p class="is-size-4 has-text-centered">จะทำให้คุณรู้สึกราวกับว่ากำลังเดินทางอยู่ที่โทโฮคุ</p>
 		<br />
 		<div class="video-container">
 			<iframe width="853" height="480" src="https://www.youtube.com/embed/kM3A_LjRbkE" frameborder="0" allowfullscreen></iframe>
@@ -136,7 +131,7 @@
 	</section>
 
 	<section id="location" class="container is-widescreen">
-	<h1 class="is-size-2 has-text-weight-bold has-text-centered">6 คลิปสุดพิเศษ จาก แดน & แพตตี้</h1>
+	<h1 class="is-size-2 has-text-weight-bold has-text-centered">6 คลิปสุดพิเศษ จาก แดน</h1>
 		<p class="is-size-4 has-text-centered">"แดน & แพทตี้" รวบรวมเสน่ห์ต่าง ๆ ที่เขาและเธอได้สัมผัสจริงจากการเดินทางเที่ยวภูมิภาคโทโฮคุ<br />
 			(จังหวัดอาโอโมริ Aomori, จังหวัดอะคิตะ Akita, และจังหวัดอิวาเตะ Iwate)<br />
 			เป็นวีดีโอ 6 คลิป 6 หัวข้อ เชิญคลิกดูและแชร์คลิปวิดีโอเหล่านี้กับเพื่อนของคุณ!
@@ -144,45 +139,27 @@
 		<br />
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-food.php" target="_blank"><img src="src/images/local_food_of_aomori.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-arts.php" target="_blank"><img src="src/images/local_art_of_aomori.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-hot-spring.php" target="_blank"><img src="src/images/local_culture_of_akita.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-railway.php" target="_blank"><img src="src/images/local_railway_of_akita.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-special.php" target="_blank"><img src="src/images/local_cultural_of_iwate.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<div class="is-fullwidth location-vdo">
 			<a href="tohoku-nature.php" target="_blank"><img src="src/images/local_nature_of_iwate.jpg" width="100%;" /></a>
-			<!--div class="vdo-youtube">
-				<iframe width="280" height="180" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
-			</div-->
 		</div>
 		<br />
 	</section>
 	
 	<section id="gallery" class="container is-widescreen">
-		<h1 class="is-size-2 has-text-weight-bold has-text-centered">อัลบั้มภาพต่างๆ ของ "แดน & แพทตี้"</h1>
+		<h1 class="is-size-2 has-text-weight-bold has-text-centered">อัลบั้มภาพต่างๆ ของ <br />"แดน & แพทตี้"</h1>
 		<p class="is-size-4 has-text-centered">ชมภาพถ่ายเบื้องหลังระหว่างที่พวกเขาสนุกไปกับการเดินทางเที่ยวภูมิภาคโทโฮคุ ญี่ปุ่น</p>
 		<br />
 		<div class="columns">
@@ -245,6 +222,11 @@
 	<footer id="footer" class="container is-widescreen">
 		<br />
 		<div class="is-size-6 has-text-centered">🄫JNTO</div>
+		<br />
+		<div class="has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>&nbsp;&nbsp;
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
 		<br />
 		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>

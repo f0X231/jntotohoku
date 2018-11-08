@@ -51,12 +51,12 @@
 </head>
 
 <body>
-<section id="herobanner" class="container is-widescreen">
+	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width20 has-text-centered bg-dark-gray">
-				<img src="src/images/icon_banner_logo.png" />
+			<div class="is-pulled-left width-175">
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
-			<div class="is-pulled-left width80 has-text-right bg-gray">
+			<div class="is-pulled-left width175 has-text-right">
 				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
@@ -68,11 +68,6 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<!--dt class="is-inline-block">
-						<a href="#" target="_blank">
-							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
-						</a>
-					</dt-->
 				</dl>
 			</div>
 		</div>
@@ -144,6 +139,11 @@
 	<footer id="footer" class="container is-widescreen">
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 Towada lake national park association<br />© 2004-2017 IWATE HOTEL & RESORT INC.<br />© Miyagi Inbound DMO Association<br />🄫 PIXTA Inc.<br />© JNTO</div>
+		<br />
+		<div class="has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>&nbsp;&nbsp;
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
 		<br />
 		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>

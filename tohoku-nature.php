@@ -53,11 +53,11 @@
 <body>
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width150 has-text-centered bg-dark-gray">
-				<img src="src/images/icon_tohoku.png" />
+			<div class="is-pulled-left width390 has-text-centered">
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
-			<div class="is-pulled-left width-370 has-text-right bg-gray">
-				<dl class="herobanner-bar-social">
+			<div class="is-pulled-left width-370 has-text-right">
+				<dl class="herobanner-bar-social is-hidden-mobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -68,15 +68,10 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-					<!--dt class="is-inline-block">
-						<a href="#" target="_blank">
-							<img src="src/images/icon_banner_youtube.png" class="vMiddle" />
-						</a>
-					</dt-->
-				</dl>
+				</dl>&nbsp;
 			</div>
-			<div class="is-pulled-left width120 has-text-centered bg-black-gray">
-				<img src="src/images/icon_banner_logo.png" />
+			<div class="is-pulled-left width105 has-text-centered">
+				<img src="src/images/icon_tohoku.png" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
@@ -139,6 +134,11 @@
 	<footer id="footer" class="container is-widescreen">
 		<br />
 		<div class="is-size-6 has-text-centered">© JNTO</div>
+		<br />
+		<div class="has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>&nbsp;&nbsp;
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
 		<br />
 		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>

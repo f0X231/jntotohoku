@@ -65,15 +65,19 @@
 .width65 { width: 65%; }
 .width70 { width: 70%; }
 .width80 { width: 80%; }
-.width80px { width: 80px; }
+.width85 { width: 85%; }
 .width90 { width: 90%; }
+.width105 { width: 85px; padding-top: 4px; }
 .width120 { width: 110px; }
 .width150 { width: 140px; }
-.width-80 { width: calc(100% - 80px); }
-.width-370 { width: calc(100% - 250px); }
+.width175 { width: 88px; }
+.width390 { width: 214px; padding-top: 10px; }
+.width-175 { width: calc(100% - 88px); padding-top: 8px; }
+.width-370 { width: calc(100% - 299px); }
 .width200 { width: 135px; }
 .width-200 { width: calc(100% - 135px); }
 .lineheight1-5 { line-height: 1.5rem; }
+.breakSentence { word-break: break-all; }
 
 /*------------------------------------*\
   #ELEMENT
@@ -239,6 +243,11 @@ dl, dt { margin: 0; }
   #MEDIA QUERY
 \*------------------------------------*/
 /* Larger than tablet screen */
+@media screen and (min-width: 460px) {
+    .width390 { width: 295px; padding-top: 6px; }
+    .width-175 { padding-top: 0px;  }
+    .width-370 { width: calc(100% - 400px); }
+}
 @media screen and (min-width: 769px) {
     #info-akita { background-image: url('../images/bg_jp_map_akita.png'); }
     #info-aomori { background-image: url('../images/bg_jp_map_aomori.png'); }
@@ -252,12 +261,16 @@ dl, dt { margin: 0; }
         background-position: right top;
         background-size: cover;
     }
+    .width105 { width: 105px; padding-top: 0px; }
     .width120 { width: 140px; }
     .width150 { width: 180px; }
-    .width-370 { width: calc(100% - 320px); }
+    .width390 { width: 390px; padding-top: 0px;}
+    .width-370 { width: calc(100% - 495px); }
     .width200 { width: 180px; }
     .width-200 { width: calc(100% - 180px); }
-    .herobanner-bar-social { margin: 0 2em; }
+    .width175 { width: 175px; }
+    .width-175 { width: calc(100% - 175px);  }
+    .herobanner-bar-social { margin: 0 0.5em; }
     .herobanner-bar-social dt { padding: 0 0.5em; }
     #gmap {
         height: 620px;
