@@ -196,7 +196,11 @@
 		<br />
 		<div class="is-size-6 has-text-centered">© 2004-2017 IWATE HOTEL & RESORT INC.<br />© JNTO</div>
 		<br />
-		<div class="columns is-mobile">
+		<div class="is-hidden-mobile">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
+		<div class="columns is-mobile is-hidden-tablet">
 			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>

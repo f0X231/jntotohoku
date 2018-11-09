@@ -160,7 +160,7 @@
 	<section id="location" class="container is-widescreen bgInsprise">
 		<h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["AKITA_LOCATION_TITLE"]; ?></h1>
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
-		<p class="is-size-4 has-text-centered"><?php echo $language["AKITA_LOCATION_DETAIL"]; ?>แต่ละแห่งเพิ่มเติม</p>
+		<p class="is-size-4 has-text-centered"><?php echo $language["AKITA_LOCATION_DETAIL"]; ?></p>
 		<div class="columns marpad-bottom-one">
 			<div class="column marpad-bottom-one"><a href="aomori.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
 			<div class="column marpad-bottom-one"><a href="iwate.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
@@ -195,7 +195,11 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 PIXTA Inc<br />© JNTO</div>
 		<br />
-		<div class="columns is-mobile">
+		<div class="is-hidden-mobile">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
+		<div class="columns is-mobile is-hidden-tablet">
 			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
