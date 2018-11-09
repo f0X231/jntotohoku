@@ -189,7 +189,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">© JNTO</div>
 		<br />
-		<div class="is-hidden-mobile">
+		<div class="is-hidden-mobile has-text-centered">
 			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
 			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
 		</div>

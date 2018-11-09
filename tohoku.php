@@ -140,7 +140,7 @@
 		<br />
 		<div class="is-size-6 has-text-centered">🄫 Towada lake national park association<br />© 2004-2017 IWATE HOTEL & RESORT INC.<br />© Miyagi Inbound DMO Association<br />🄫 PIXTA Inc.<br />© JNTO</div>
 		<br />
-		<div class="is-hidden-mobile">
+		<div class="is-hidden-mobile has-text-centered">
 			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
 			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
 		</div>
