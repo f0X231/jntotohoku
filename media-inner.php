@@ -89,15 +89,16 @@
 		<h1 class="is-size-2 has-text-centered has-text-weight-bold">Dan Worrawech x Pattie ungsumalynn</h1>
 		<p class="is-size-4 has-text-centered has-text-weight-bold">วรเวช ดานุวงศ์ และ อังศุมาลิน สิรภัทรศักดิ์เมธา<br />ชื่อเล่น : แดน และ แพทตี้</p>
 		<div class="columns is-mobile">
-			<div class="column is-two-fifths has-text-right is-flex-mobile">
+			<!--div class="column is-two-fifths has-text-right is-flex-mobile">
 				<div class="is-fullwidth has-text-right">
 					<img src="src/images/icon_ig_black.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<img src="src/images/vertical-line.png" />
 				</div>
 			</div>
-			<div class="column is-size-4">
-				<p>แดนเป็นนักแสดง / นักร้อง และแพ๊ตตี้ เป็นนักแสดงในละครทีวี</p>
-				<p>ตอนนี้พวกเขาเป็นหนึ่งในคู่รักที่มีชื่อเสียงในมืองไทย</p>
+			<div class="column is-size-4"-->
+			<div class="column has-text-centered is-size-4">
+				<p>แดน วรเวช x แพ๊ตตี้ อังศุมาลิน</p>
+				<p>นักร้อง นักแสดงชื่อดังของไทย</p>
 			</div>
 		</div>
 		<p class="is-size-4 has-text-centered">
