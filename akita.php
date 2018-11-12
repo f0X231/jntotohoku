@@ -53,13 +53,14 @@
 </head>
 
 <body>
+	
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
 			<div class="is-pulled-left width-175">
-				<img src="src/images/icon_jnto_japan.png" />
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
 			<div class="is-pulled-left width175 has-text-right">
-				<dl class="herobanner-bar-social hiddenMobile">
+				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -71,9 +72,6 @@
 						</a>
 					</dt>
 				</dl>
-			</div>
-			<div class="is-pulled-left width105x">
-				<img src="src/images/icon_tohoku_logo.png" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
