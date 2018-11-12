@@ -53,10 +53,10 @@
 <body>
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width-175">
+			<div class="is-pulled-left width105xx">
 				<img src="src/images/icon_jnto_japan.png" />
 			</div>
-			<div class="is-pulled-left width175 has-text-right">
+			<div class="is-pulled-left width-175x has-text-right">
 				<dl class="herobanner-bar-social hiddenMobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
@@ -68,7 +68,7 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-				</dl>
+				</dl>&nbsp;
 			</div>
 			<div class="is-pulled-left width105x">
 				<img src="src/images/icon_tohoku_logo.png" />
@@ -102,16 +102,16 @@
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKU_LOCATION_DETAIL"]; ?></p>
 		<br />
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="aomori.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href="akita.php" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="aomori.php" target="_blank"><img src="src/images/local_towada_lake.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="akita.php" target="_blank"><img src="src/images/local_gozanoishi_shrine.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="iwate.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href="miyagi.php" target="_blank"><img src="src/images/local_snow_monster.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="iwate.php" target="_blank"><img src="src/images/local_appi_kogen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="miyagi.php" target="_blank"><img src="src/images/local_snow_monster.png" width="100%" /></a></div>
 		</div>
 		<div class="columns marpad-bottom-one">
-			<div class="column marpad-bottom-one"><a href="yamagata.php" target="_blank"><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
-			<div class="column marpad-bottom-one"><a href="fukushima.php" target="_blank"><img src="src/images/local_tadami_line.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="yamagata.php" target="_blank"><img src="src/images/local_ginzan_onsen.png" width="100%" /></a></div>
+			<div class="column marpad-bottom-one paddingzero"><a href="fukushima.php" target="_blank"><img src="src/images/local_tadami_line.png" width="100%" /></a></div>
 		</div>
 		<br />
 		<hr class="has-text-grey-lighter" />

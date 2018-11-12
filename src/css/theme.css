@@ -68,10 +68,12 @@
 .width85 { width: 85%; }
 .width90 { width: 90%; }
 .width105 { width: 150px; padding-top: 10px; }
+.width105xx { width: 150px; padding-top: 10px; }
 .width120 { width: 110px; }
 .width150 { width: 140px; }
 .width105x { width: 105px; }
 .width175 { width: 88px; }
+.width-175x { width: calc(100% - 255px); padding-top: 0px;  }
 .width390 { width: 140px; padding-top: 10px; }
 .width-175 { width: calc(100% - 110px); padding-top: 6px; }
 .width-370 { width: calc(100% - 295px); }
@@ -80,7 +82,9 @@
 .lineheight1-5 { line-height: 1.5rem; }
 .breakSentence { word-break: break-all; }
 .logo-responsive { width: 80%; }
+.logo-responsive2 { width: 80%; }
 .hiddenMobile { display: none; }
+
 
 /*------------------------------------*\
   #ELEMENT
@@ -245,15 +249,22 @@ dl, dt { margin: 0; }
 /*------------------------------------*\
   #MEDIA QUERY
 \*------------------------------------*/
+
 /* Larger than tablet screen */
 @media screen and (min-width: 460px) {
     .width390 { width: 195px; padding-top: 2px; }
     .width105 { width: 220px; padding-top: 2px; }
+    .width105xx { width: 220px; padding-top: 2px; }
     .width-175 { width: calc(100% - 200px); padding-top: 0px;  }
+    .width-175x { width: calc(100% - 330px); padding-top: 0px;  }
     .width105x { width: 105px; }
     .width-370 { width: calc(100% - 430px); }
     .logo-responsive { width: 100%; }
+    .logo-responsive2 { width: auto; }
     .hiddenMobile { display: block; }
+}
+@media screen and (max-width: 768px) {
+    .paddingzero { padding: 0; }
 }
 @media screen and (min-width: 769px) {
     #info-akita { background-image: url('../images/bg_jp_map_akita.png'); }
@@ -269,6 +280,7 @@ dl, dt { margin: 0; }
         background-size: cover;
     }
     .width105 { width: 215px; padding-top: 0px; }
+    .width105xx { width: 215px; padding-top: 0px; }
     .width120 { width: 140px; }
     .width150 { width: 180px; }
     .width390 { width: 215px; padding-top: 0px;}

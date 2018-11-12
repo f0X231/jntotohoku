@@ -52,12 +52,13 @@
 	<link rel="stylesheet" type="text/css" href="src/css/theme.css?v=320">
 </head>
 
-<body><section id="herobanner" class="container is-widescreen">
+<body>
+	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
-			<div class="is-pulled-left width-175">
+			<div class="is-pulled-left width105xx">
 				<img src="src/images/icon_jnto_japan.png" />
 			</div>
-			<div class="is-pulled-left width175 has-text-right">
+			<div class="is-pulled-left width-175x has-text-right">
 				<dl class="herobanner-bar-social hiddenMobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
@@ -69,7 +70,7 @@
 							<img src="src/images/icon_banner_ig.png" class="vMiddle" />
 						</a>
 					</dt>
-				</dl>
+				</dl>&nbsp;
 			</div>
 			<div class="is-pulled-left width105x">
 				<img src="src/images/icon_tohoku_logo.png" />
