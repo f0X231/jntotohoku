@@ -54,10 +54,10 @@
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
 			<div class="is-pulled-left width-175">
-				<img src="src/images/icon_jnto_japan.png" />
+				<img src="src/images/icon_banner_logo2.png" />
 			</div>
 			<div class="is-pulled-left width175 has-text-right">
-				<dl class="herobanner-bar-social hiddenMobile">
+				<dl class="herobanner-bar-social">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -69,9 +69,6 @@
 						</a>
 					</dt>
 				</dl>
-			</div>
-			<div class="is-pulled-left width105x">
-				<img src="src/images/icon_tohoku_logo.png" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
@@ -141,13 +138,13 @@
 
 	<footer id="footer" class="container is-widescreen">
 		
-		<div class="is-hidden-mobile has-text-centered">
-			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
-			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		<div class="is-hidden-mobile">
+			<span style="text-align: center"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></span>
 		</div>
 		<div class="columns is-mobile is-hidden-tablet">
-			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
-			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
+			<div class="column has-text-right"><span style="text-align: center"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
+			<div class="column is-three-quarters"><span style="text-align: center"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
 		<br />
 		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.<br />© Towada lake national park association<br />© 2004-2017 IWATE HOTEL & RESORT INC.<br />© Miyagi Inbound DMO Association<br />© PIXTA Inc.</p>
