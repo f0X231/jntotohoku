@@ -55,10 +55,10 @@
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
 			<div class="is-pulled-left width390 has-text-centered">
-				<img src="src/images/icon_banner_logo2.png" />
+				<img src="src/images/icon_jnto_japan.png" class="logo-responsive" />
 			</div>
 			<div class="is-pulled-left width-370 has-text-right">
-				<dl class="herobanner-bar-social is-hidden-mobile">
+				<dl class="herobanner-bar-social hiddenMobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -72,7 +72,7 @@
 				</dl>&nbsp;
 			</div>
 			<div class="is-pulled-left width105 has-text-centered">
-				<img src="src/images/icon_tohoku.png" />
+				<img src="src/images/icon_tohoku3.png" class="logo-responsive" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
@@ -86,17 +86,16 @@
 		<div class="has-text-centered">
 			<img src="src/images/pic-dan-pat.png" />
 		</div>
-		<h1 class="is-size-2 has-text-centered has-text-weight-bold">Dan Worrawech x Pattie ungsumalynn</h1>
+		<h1 class="is-size-2 has-text-centered has-text-weight-bold">Dan Worrawech <br class="is-hidden-tablet" />x Pattie ungsumalynn</h1>
 		<p class="is-size-4 has-text-centered has-text-weight-bold">วรเวช ดานุวงศ์ และ อังศุมาลิน สิรภัทรศักดิ์เมธา<br />ชื่อเล่น : แดน และ แพทตี้</p>
 		<div class="columns is-mobile">
-			<!--div class="column is-two-fifths has-text-right is-flex-mobile">
+			<div class="column is-two-fifths has-text-right is-flex-mobile">
 				<div class="is-fullwidth has-text-right">
-					<img src="src/images/icon_ig_black.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<!--img src="src/images/icon_ig_black.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
 					<img src="src/images/vertical-line.png" />
 				</div>
 			</div>
-			<div class="column is-size-4"-->
-			<div class="column has-text-centered is-size-4">
+			<div class="column is-size-4">
 				<p>แดน วรเวช x แพ๊ตตี้ อังศุมาลิน</p>
 				<p>นักร้อง นักแสดงชื่อดังของไทย</p>
 			</div>
@@ -105,8 +104,12 @@
 			"แดน วรเวช" และ "แพทตี้ อังศุมาลิน" เดินทางเที่ยวภูมิภาค โทโฮคุ ญี่ปุ่น (Tohoku)<br class="is-hidden-mobile" />
 			พวกเขาได้สัมผัสกับเสน่ห์หลากหลายของที่นี่<br class="is-hidden-mobile" />
 			โดย "แดน" เป็นผู้สรุปสถานที่รวมทั้งกิจกรรมที่น่าสนใจของโทโฮคุเป็นคลิปวีดีโอ 6 หัวข้อ ดังต่อไปนี้<br />
-			* ฟินกับอาหารทะเลสดๆ *  ดื่มด่ำกับผลงานศิลปะ * สนุกไปกับการเดินทางหลากสไตล์ *  <br />
-			ผ่อนคลายกับการแช่น้ำพุร้อน * เพลินกับกิจกรรมต่างๆที่น่าสนใจ * ตื่นตาตื่นใจกับธรรมชาติตระการตา *
+			* ฟินกับอาหารทะเลสดๆ *<br />
+			* ดื่มด่ำกับผลงานศิลปะ *<br />
+			* สนุกไปกับการเดินทางหลากสไตล์ *<br />
+			* ผ่อนคลายกับการแช่น้ำพุร้อน *<br />
+			* เพลินกับกิจกรรมต่างๆที่น่าสนใจ *<br />
+			* ตื่นตาตื่นใจกับธรรมชาติตระการตา *
 		</p>
 		<br /><br />
 	</section>
@@ -222,14 +225,16 @@
 	
 	<footer id="footer" class="container is-widescreen">
 		<br />
-		<div class="is-size-6 has-text-centered">🄫JNTO</div>
-		<br />
-		<div class="columns is-mobile">
+		<div class="is-hidden-mobile has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
+		<div class="columns is-mobile is-hidden-tablet">
 			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
 		<br />
-		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.<br />© JNTO</p>
 	</section>
 
 	

@@ -56,10 +56,10 @@
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
 			<div class="is-pulled-left width-175">
-				<img src="src/images/icon_banner_logo2.png" />
+				<img src="src/images/icon_jnto_japan.png" />
 			</div>
 			<div class="is-pulled-left width175 has-text-right">
-				<dl class="herobanner-bar-social">
+				<dl class="herobanner-bar-social hiddenMobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -71,6 +71,9 @@
 						</a>
 					</dt>
 				</dl>
+			</div>
+			<div class="is-pulled-left width105x">
+				<img src="src/images/icon_tohoku_logo.png" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
@@ -186,10 +189,12 @@
 	</section>
 
 	<footer id="footer" class="container is-widescreen">
-		<br />
-		<div class="is-size-6 has-text-centered">© JNTO</div>
-		<br />
-		<div class="columns is-mobile">
+		
+		<div class="is-hidden-mobile has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
+		<div class="columns is-mobile is-hidden-tablet">
 			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>

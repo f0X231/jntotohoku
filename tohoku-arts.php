@@ -54,10 +54,10 @@
 	<section id="herobanner" class="container is-widescreen">
 		<div class="herobanner-bar width100 allClear">
 			<div class="is-pulled-left width390 has-text-centered">
-				<img src="src/images/icon_banner_logo2.png" />
+				<img src="src/images/icon_jnto_japan.png" class="logo-responsive" />
 			</div>
 			<div class="is-pulled-left width-370 has-text-right">
-				<dl class="herobanner-bar-social is-hidden-mobile">
+				<dl class="herobanner-bar-social hiddenMobile">
 					<dt class="is-inline-block">
 						<a href="https://www.facebook.com/visitjapanth/" target="_blank">
 							<img src="src/images/icon_banner_facebook.png" class="vMiddle" />
@@ -71,14 +71,14 @@
 				</dl>&nbsp;
 			</div>
 			<div class="is-pulled-left width105 has-text-centered">
-				<img src="src/images/icon_tohoku.png" />
+				<img src="src/images/icon_tohoku3.png" class="logo-responsive" />
 			</div>
 		</div>
 		<div class="owl-carousel owl-theme">
 			<div class="item"><a href=""><img src="src/images/banner/hero_banner_tohoku_art.jpg" alt=""></a></div>
 		</div>
 		<br />
-		<h1 class="is-size-4 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKUART_INFO_HEAD"]; ?></h1>
+		<h1 class="is-size-3 has-text-weight-bold has-text-centered"><?php echo $language["TOHOKUART_INFO_HEAD"]; ?></h1>
 		<p class="is-size-4 has-text-centered"><?php echo $language["TOHOKUART_INFO"]; ?></p>
 		<br />
 		<div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
@@ -159,10 +159,12 @@
 	</section>
 
 	<footer id="footer" class="container is-widescreen">
-		<br />
-		<div class="is-size-6 has-text-centered">© JNTO</div>
-		<br />
-		<div class="columns is-mobile">
+		
+		<div class="is-hidden-mobile has-text-centered">
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a>
+			<a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a>
+		</div>
+		<div class="columns is-mobile is-hidden-tablet">
 			<div class="column has-text-right"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo1.png" id="logo1"></a></div>
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
