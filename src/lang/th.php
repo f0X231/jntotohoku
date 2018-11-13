@@ -12,11 +12,11 @@ $language = array(
 			'HEADER_MAP'				=> 'แผนที่',
 
 			/* MAIN */
-			'MAIN_META_TITLE'			=> 'Tohoku Media invitation',
-			'MAIN_META_DESCRIPTION'		=> 'Tohoku Media invitation',
-			'MAIN_META_KEYWORD'			=> 'Tohoku Media invitation',
+			'MAIN_META_TITLE'			=> 'Tohoku Dan_Pattie',
+			'MAIN_META_DESCRIPTION'		=> 'Tohoku Dan_Pattie',
+			'MAIN_META_KEYWORD'			=> 'Tohoku Dan_Pattie',
 			'MAIN_META_IMAGE'			=> './src/images/banner/hero_banner_main.jpg',
-			'MAIN_META_SITENAME'		=> 'Tohoku Media invitation',
+			'MAIN_META_SITENAME'		=> 'Tohoku Dan_Pattie',
 
 			/* AKITA */
 			'AKITA_META_TITLE'			=> 'Tohoku Akita',

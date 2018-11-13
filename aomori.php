@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	// include language configuration file based on selected language
 	$lang = "th";
 	if(isset($_GET['lang'])){ 
@@ -206,7 +206,7 @@
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
 		<br />
-		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.<br />© Towada lake national park association</p>
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 
 
