@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	// include language configuration file based on selected language
 	$lang = "th";
 	if(isset($_GET['lang'])){ 
@@ -134,7 +134,7 @@
     </section>
 
 	<section id="googleMaps" class="container is-widescreen">
-        <h1 class="is-size-2 has-text-weight-bold has-text-centered"><?php echo $language["HEADER_MAP"]; ?></h1>
+        <h1 class="is-size-3 has-text-weight-bold has-text-centered"><?php echo $language["HEADER_MAP"]; ?></h1>
         <div class="has-text-centered"><img src="src/images/tips-head-line.png" /></div>
         <br />
         <div id="gmap"></div>

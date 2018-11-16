@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	// include language configuration file based on selected language
 	$lang = "th";
 	if(isset($_GET['lang'])){ 
@@ -205,7 +205,7 @@
 			<div class="column is-three-quarters"><a href="http://www.jnto.or.th/" target="_blank"><img src="src/images/footer_logo2.png" id="logo2"></a></div>
 		</div>
 		<br />
-		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.<br />©  PIXTA Inc</p>
+		<p id="copyright" class="has-text-centered is-size-5">Copyright © Japan National Tourism Organization All Rights Reserved.</p>
 	</section>
 	
 	<img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=1856422301142184&ev=PageView&noscript=1"/>
